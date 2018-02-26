@@ -33,41 +33,65 @@ Physical memory - 256 frames x 256 frames
 --------TODO----------*/
 
 
-const char* FILE_NAME = "addresses.txt";
+const int PAGE_TABLE_SIZE = 256;
 const int BUFFER_SIZE = 256;
+const int PHYS_MEM_SIZE = 256;
+const int TLB_SIZE = 16;
+
+
+	return 1;
+}
+
+int findPage(int logicalAddr, unsigned char* PT){
+
+	unsigned char mask = 0xFF;
+	unsigned char offset;
+	unsigned char pageNum;
+
+	pageNum = (logicalAddr >> 8) & mask;
+	printf("%X\t", pageNum);	
+
+	offset = logicalAddr & mask;
+	printf("%X\n", offset);
+
+
+	return 0;
+}
+
+
+
 
 int main (int argc, char* argv[]){
 	
+	int val;
+	FILE *fd;
+	
+	unsigned char PageTable[PAGE_TABLE_SIZE];
+	unsigned char TLB[TLB_SIZE];	
+	unsigned char PhyMem [PHYS_MEM_SIZE][PHYS_MEM_SIZE]; 
+
 	if (argc < 2){
 		printf("Not enough arguments\nProgram Exiting\n");
 		exit(0);
 	}
 
-	FILE *fd;
 	fd = fopen(argv[1], "r");
-	
 	if (fd == NULL){
 		printf("File failed to open\n");
 		exit(0);
 	}
 
 
-	int val;
-	unsigned char mask = 0xFF;
-	unsigned char offset;
-	unsigned char pageNum;
-
-	printf("Value\tOffset\tPageNumber\n ");	
+	printf("Value\tPageNum\tOffset\n ");	
 	while (fscanf(fd, "%d", &val)==1){
-		printf("%d\t", val);
+		printf("%X\t", val);
+		findPage(val, PageTable);	
+		
 	
-		offset = val & mask;
-		printf("%X\t", offset);
-	
-		pageNum = (val >> 8) & mask;
-		printf("%X\n", pageNum);	
 	}
+//	readFromDisk();
 
+	close(fd);
 	return 0;
 
 }
