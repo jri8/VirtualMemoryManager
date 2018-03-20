@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <stdbool.h>
 /*------TODO---------
 Structure:
   Read file containing logical addresses
@@ -37,6 +37,15 @@ const int PAGE_TABLE_SIZE = 256;
 const int BUFFER_SIZE = 256;
 const int PHYS_MEM_SIZE = 256;
 const int TLB_SIZE = 16;
+
+struct TLB {
+	unsigned char TLBpage[16];
+	unsigned char TLBframe[16];
+	int ind;
+};
+	
+
+
 
 int readFromDisk (int pageNum, char *PM, int* OF){
 
@@ -76,11 +85,15 @@ int readFromDisk (int pageNum, char *PM, int* OF){
 
 
 
-int findPage(int logicalAddr, char* PT, char* PM, int* OF){
+int findPage(int logicalAddr, char* PT, struct TLB *tlb,  char* PM, int* OF){
 
 	unsigned char mask = 0xFF;
 	unsigned char offset;
 	unsigned char pageNum;
+	bool TLBhit = false;
+	int frame = 0;
+	int value;
+	int newFrame = 0;
 
 	pageNum = (logicalAddr >> 8) & mask;
 	printf("%X\t", pageNum);	
@@ -89,23 +102,37 @@ int findPage(int logicalAddr, char* PT, char* PM, int* OF){
 	printf("%X\t", offset);
 	
 	//Check if in TLB
+	int i = 0;
+	for (i; i < TLB_SIZE; i++){
+		if(tlb->TLBpage[i] == pageNum){
+			frame = tlb->TLBframe[i];
+			TLBhit = true;
+			printf("TLBhit\t");
+		}
+			
+	}
 
 	//Check if in PageTable
+	if (TLBhit == false){
+		if (PT[pageNum] != -1)
+			printf("Pagehit\t\t");
+		
+		//if not in either read from disk
+		else{
+			printf("pageFault\t");
+			newFrame = readFromDisk(pageNum, PM, OF);
+			PT[pageNum] = newFrame;
+			tlb->TLBpage[tlb->ind] = pageNum;
+			tlb->TLBframe[tlb->ind] = newFrame;
+			tlb->ind = (tlb->ind + 1)%TLB_SIZE;
+		}
+		frame = PT[pageNum];
 
-	if (PT[pageNum] != NULL)
-		printf("Pagehit\t\t");
-//	PT[pageNum] = offset;
-	
-	
-	//if not in either read from disk
-	else{
-		printf("pageFault\t");
-		PT[pageNum] = readFromDisk(pageNum, PM, OF);
 	}
-	int value = PT[pageNum];
-	int index = (value*PHYS_MEM_SIZE)+offset;
+	int index = ((unsigned char)frame*PHYS_MEM_SIZE)+offset;
 	value = *(PM+index);
 	printf("value = %d at PM[%d]\n",value,index);	
+
 	
 	return 0;
 
@@ -122,13 +149,12 @@ int main (int argc, char* argv[]){
 	int openFrame = 0;
 	
 	unsigned char PageTable[PAGE_TABLE_SIZE];
-//	memset(PageTable, NULL, sizeof(PageTable));	
-	int i =0;
-	for (i;i < PAGE_TABLE_SIZE;i++)
-		PageTable[i] = NULL;
+	memset(PageTable, -1, sizeof(PageTable));	
 
-	unsigned char TLB[TLB_SIZE];	
-//	memset(TLB, NULL, sizeof(TLB));
+	struct TLB tlb;	
+	memset(tlb.TLBpage, -1, sizeof(tlb.TLBpage));
+	memset(tlb.TLBframe, -1, sizeof(tlb.TLBframe));
+	tlb.ind = 0;
 
 	char PhyMem[PHYS_MEM_SIZE][PHYS_MEM_SIZE]; 
 
@@ -147,7 +173,7 @@ int main (int argc, char* argv[]){
 	printf("Value\tPageNum\tOffset\n ");	
 	while (fscanf(fd, "%d", &val)==1){
 		printf("%d\t", val);
-		findPage(val, PageTable, (char*)PhyMem, &openFrame);	
+		findPage(val, PageTable, &tlb, (char*)PhyMem, &openFrame);
 	}
 
 //	readFromDisk(0, (char*)PhyMem, &openFrame);
