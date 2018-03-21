@@ -85,7 +85,7 @@ int readFromDisk (int pageNum, char *PM, int* OF){
 
 
 
-int findPage(int logicalAddr, char* PT, struct TLB *tlb,  char* PM, int* OF){
+int findPage(int logicalAddr, char* PT, struct TLB *tlb,  char* PM, int* OF, int* pageFaults, int* TLBhits){
 
 	unsigned char mask = 0xFF;
 	unsigned char offset;
@@ -95,11 +95,13 @@ int findPage(int logicalAddr, char* PT, struct TLB *tlb,  char* PM, int* OF){
 	int value;
 	int newFrame = 0;
 
+	printf("Virtual adress: %d\t", logicalAddr);
+
 	pageNum = (logicalAddr >> 8) & mask;
-	printf("%X\t", pageNum);	
+//	printf("%X\t", pageNum);	
 
 	offset = logicalAddr & mask;
-	printf("%X\t", offset);
+//	printf("%X\t", offset);
 	
 	//Check if in TLB
 	int i = 0;
@@ -107,31 +109,37 @@ int findPage(int logicalAddr, char* PT, struct TLB *tlb,  char* PM, int* OF){
 		if(tlb->TLBpage[i] == pageNum){
 			frame = tlb->TLBframe[i];
 			TLBhit = true;
-			printf("TLBhit\t");
+			(*TLBhits)++;
+		//	printf("TLBhit\t\t");
 		}
 			
 	}
 
 	//Check if in PageTable
 	if (TLBhit == false){
-		if (PT[pageNum] != -1)
-			printf("Pagehit\t\t");
-		
+		if (PT[pageNum] != -1){
+		//	printf("Pagehit\t\t");
+		}
+
 		//if not in either read from disk
 		else{
-			printf("pageFault\t");
+	//		printf("pageFault\t");
 			newFrame = readFromDisk(pageNum, PM, OF);
 			PT[pageNum] = newFrame;
-			tlb->TLBpage[tlb->ind] = pageNum;
-			tlb->TLBframe[tlb->ind] = newFrame;
-			tlb->ind = (tlb->ind + 1)%TLB_SIZE;
+			(*pageFaults)++;
+//			tlb->TLBpage[tlb->ind] = pageNum;
+//			tlb->TLBframe[tlb->ind] = newFrame;
+//			tlb->ind = (tlb->ind + 1)%TLB_SIZE;
 		}
 		frame = PT[pageNum];
-
+		tlb->TLBpage[tlb->ind] = pageNum;
+		tlb->TLBframe[tlb->ind] = PT[pageNum];
+		tlb->ind = (tlb->ind + 1)%TLB_SIZE;
+		
 	}
 	int index = ((unsigned char)frame*PHYS_MEM_SIZE)+offset;
 	value = *(PM+index);
-	printf("value = %d at PM[%d]\n",value,index);	
+	printf("Physical address: %d\t Value: %d\n",index, value);	
 
 	
 	return 0;
@@ -147,7 +155,14 @@ int main (int argc, char* argv[]){
 	int val;
 	FILE *fd;
 	int openFrame = 0;
+
+	int pageFaults = 0;
+	int TLBhits = 0;
+	int inputCount = 0;
 	
+	float pageFaultRate;
+	float TLBHitRate;
+
 	unsigned char PageTable[PAGE_TABLE_SIZE];
 	memset(PageTable, -1, sizeof(PageTable));	
 
@@ -170,19 +185,22 @@ int main (int argc, char* argv[]){
 	}
 
 
-	printf("Value\tPageNum\tOffset\n ");	
+	//printf("Value\tPageNum\tOffset\n ");	
 	while (fscanf(fd, "%d", &val)==1){
-		printf("%d\t", val);
-		findPage(val, PageTable, &tlb, (char*)PhyMem, &openFrame);
+	//	printf("%d\t", val);
+		findPage(val, PageTable, &tlb, (char*)PhyMem, &openFrame, &pageFaults, &TLBhits);
+		inputCount++;
 	}
 
 //	readFromDisk(0, (char*)PhyMem, &openFrame);
 	
-	printf("openFrame = %d\n", openFrame);
 /*	int i = 0;
 	for (i; i < PHYS_MEM_SIZE; i++)
 		printf("PhyMem[%d]=%d\n",i, PhyMem[0][i]);
 */
+	pageFaultRate = (float)pageFaults / (float)inputCount;
+	TLBHitRate = (float)TLBhits / (float)inputCount;
+	printf("Page Fault Rate = %.4f\nTLB hit rate= %.4f\n",pageFaultRate, TLBHitRate);
 	close(fd);
 	return 0;
 

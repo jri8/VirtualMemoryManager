@@ -1,1004 +1,1003 @@
 cc memoryManager.c
 ./a.out addresses.txt
-Value	PageNum	Offset
- 16916	42	14	pageFault	value = 0 at PM[20]
-62493	F4	1D	pageFault	value = 0 at PM[285]
-30198	75	F6	pageFault	value = 29 at PM[758]
-53683	D1	B3	pageFault	value = 108 at PM[947]
-40185	9C	F9	pageFault	value = 0 at PM[1273]
-28781	70	6D	pageFault	value = 0 at PM[1389]
-24462	5F	8E	pageFault	value = 23 at PM[1678]
-48399	BD	F	pageFault	value = 67 at PM[1807]
-64815	FD	2F	pageFault	value = 75 at PM[2095]
-18295	47	77	pageFault	value = -35 at PM[2423]
-12218	2F	BA	pageFault	value = 11 at PM[2746]
-22760	58	E8	pageFault	value = 0 at PM[3048]
-57982	E2	7E	pageFault	value = 56 at PM[3198]
-27966	6D	3E	pageFault	value = 27 at PM[3390]
-54894	D6	6E	pageFault	value = 53 at PM[3694]
-38929	98	11	pageFault	value = 0 at PM[3857]
-32865	80	61	pageFault	value = 0 at PM[4193]
-64243	FA	F3	pageFault	value = -68 at PM[4595]
-2315	9	B	pageFault	value = 66 at PM[4619]
-64454	FB	C6	pageFault	value = 62 at PM[5062]
-55041	D7	1	pageFault	value = 0 at PM[5121]
-18633	48	C9	pageFault	value = 0 at PM[5577]
-14557	38	DD	pageFault	value = 0 at PM[5853]
-61006	EE	4E	pageFault	value = 59 at PM[5966]
-62615	F4	97	Pagehit		value = 37 at PM[407]
-7591	1D	A7	pageFault	value = 105 at PM[6311]
-64747	FC	EB	pageFault	value = 58 at PM[6635]
-6727	1A	47	pageFault	value = -111 at PM[6727]
-32315	7E	3B	pageFault	value = -114 at PM[6971]
-60645	EC	E5	pageFault	value = 0 at PM[7397]
-6308	18	A4	pageFault	value = 0 at PM[7588]
-45688	B2	78	pageFault	value = 0 at PM[7800]
-969	3	C9	pageFault	value = 0 at PM[8137]
-40891	9F	BB	pageFault	value = -18 at PM[8379]
-49294	C0	8E	pageFault	value = 48 at PM[8590]
-41118	A0	9E	pageFault	value = 40 at PM[8862]
-21395	53	93	pageFault	value = -28 at PM[9107]
-6091	17	CB	pageFault	value = -14 at PM[9419]
-32541	7F	1D	pageFault	value = 0 at PM[9501]
-17665	45	1	pageFault	value = 0 at PM[9729]
-3784	E	C8	pageFault	value = 0 at PM[10184]
-28718	70	2E	Pagehit		value = 28 at PM[1326]
-59240	E7	68	pageFault	value = 0 at PM[10344]
-40178	9C	F2	Pagehit		value = 39 at PM[1266]
-60086	EA	B6	pageFault	value = 58 at PM[10678]
-42252	A5	C	pageFault	value = 0 at PM[10764]
-44770	AE	E2	pageFault	value = 43 at PM[11234]
-22514	57	F2	pageFault	value = 21 at PM[11506]
-3067	B	FB	pageFault	value = -2 at PM[11771]
-15757	3D	8D	pageFault	value = 0 at PM[11917]
-31649	7B	A1	pageFault	value = 0 at PM[12193]
-10842	2A	5A	pageFault	value = 10 at PM[12378]
-43765	AA	F5	pageFault	value = 0 at PM[12789]
-33405	82	7D	pageFault	value = 0 at PM[12925]
-44954	AF	9A	pageFault	value = 43 at PM[13210]
-56657	DD	51	pageFault	value = 0 at PM[13393]
-5003	13	8B	pageFault	value = -30 at PM[13707]
-50227	C4	33	pageFault	value = 12 at PM[13875]
-19358	4B	9E	pageFault	value = 18 at PM[14238]
-36529	8E	B1	pageFault	value = 0 at PM[14513]
-10392	28	98	pageFault	value = 0 at PM[14744]
-58882	E6	2	pageFault	value = 57 at PM[14850]
-5129	14	9	pageFault	value = 0 at PM[15113]
-58554	E4	BA	pageFault	value = 57 at PM[15546]
-58584	E4	D8	TLBhit	value = 0 at PM[15576]
-27444	6B	34	pageFault	value = 0 at PM[15668]
-58982	E6	66	TLBhit	value = 57 at PM[14950]
-51476	C9	14	pageFault	value = 0 at PM[15892]
-6796	1A	8C	Pagehit		value = 0 at PM[6796]
-21311	53	3F	Pagehit		value = -49 at PM[9023]
-30705	77	F1	pageFault	value = 0 at PM[16369]
-28964	71	24	pageFault	value = 0 at PM[16420]
-41003	A0	2B	Pagehit		value = 10 at PM[8747]
-20259	4F	23	pageFault	value = -56 at PM[16675]
-57857	E2	1	Pagehit		value = 0 at PM[3073]
-63258	F7	1A	pageFault	value = 61 at PM[16922]
-36374	8E	16	TLBhit	value = 35 at PM[14358]
-692	2	B4	pageFault	value = 0 at PM[17332]
-43121	A8	71	pageFault	value = 0 at PM[17521]
-48128	BC	0	pageFault	value = 0 at PM[17664]
-34561	87	1	pageFault	value = 0 at PM[17921]
-49213	C0	3D	Pagehit		value = 0 at PM[8509]
-36922	90	3A	pageFault	value = 36 at PM[18234]
-59162	E7	1A	Pagehit		value = 57 at PM[10266]
-50552	C5	78	pageFault	value = 0 at PM[18552]
-17866	45	CA	Pagehit		value = 17 at PM[9930]
-18145	46	E1	pageFault	value = 0 at PM[18913]
-3884	F	2C	pageFault	value = 0 at PM[18988]
-54388	D4	74	pageFault	value = 0 at PM[19316]
-42932	A7	B4	pageFault	value = 0 at PM[19636]
-46919	B7	47	pageFault	value = -47 at PM[19783]
-58892	E6	C	Pagehit		value = 0 at PM[14860]
-8620	21	AC	pageFault	value = 0 at PM[20140]
-38336	95	C0	pageFault	value = 0 at PM[20416]
-64357	FB	65	Pagehit		value = 0 at PM[4965]
-23387	5B	5B	pageFault	value = -42 at PM[20571]
-42632	A6	88	pageFault	value = 0 at PM[20872]
-15913	3E	29	pageFault	value = 0 at PM[21033]
-15679	3D	3F	Pagehit		value = 79 at PM[11839]
-22501	57	E5	Pagehit		value = 0 at PM[11493]
-37540	92	A4	pageFault	value = 0 at PM[21412]
-5527	15	97	pageFault	value = 101 at PM[21655]
-63921	F9	B1	pageFault	value = 0 at PM[21937]
-62716	F4	FC	Pagehit		value = 0 at PM[508]
-32874	80	6A	Pagehit		value = 32 at PM[4202]
-64390	FB	86	Pagehit		value = 62 at PM[4998]
-63101	F6	7D	pageFault	value = 0 at PM[22141]
-61802	F1	6A	pageFault	value = 60 at PM[22378]
-19648	4C	C0	pageFault	value = 0 at PM[22720]
-29031	71	67	Pagehit		value = 89 at PM[16487]
-44981	AF	B5	Pagehit		value = 0 at PM[13237]
-28092	6D	BC	Pagehit		value = 0 at PM[3516]
-9448	24	E8	pageFault	value = 0 at PM[23016]
-44744	AE	C8	Pagehit		value = 0 at PM[11208]
-61496	F0	38	pageFault	value = 0 at PM[23096]
-31453	7A	DD	pageFault	value = 0 at PM[23517]
-60746	ED	4A	pageFault	value = 59 at PM[23626]
-12199	2F	A7	Pagehit		value = -23 at PM[2727]
-62255	F3	2F	pageFault	value = -53 at PM[23855]
-21793	55	21	pageFault	value = 0 at PM[24097]
-26544	67	B0	pageFault	value = 0 at PM[24496]
-14964	3A	74	pageFault	value = 0 at PM[24692]
-41462	A1	F6	pageFault	value = 40 at PM[25078]
-56089	DB	19	pageFault	value = 0 at PM[25113]
-52038	CB	46	pageFault	value = 50 at PM[25414]
-47982	BB	6E	pageFault	value = 46 at PM[25710]
-59484	E8	5C	pageFault	value = 0 at PM[25948]
-50924	C6	EC	pageFault	value = 0 at PM[26348]
-6942	1B	1E	pageFault	value = 6 at PM[26398]
-34998	88	B6	pageFault	value = 34 at PM[26806]
-27069	69	BD	pageFault	value = 0 at PM[27069]
-51926	CA	D6	pageFault	value = 50 at PM[27350]
-60645	EC	E5	Pagehit		value = 0 at PM[7397]
-43181	A8	AD	Pagehit		value = 0 at PM[17581]
-10559	29	3F	pageFault	value = 79 at PM[27455]
-4664	12	38	pageFault	value = 0 at PM[27704]
-28578	6F	A2	pageFault	value = 27 at PM[28066]
-59516	E8	7C	TLBhit	value = 0 at PM[25980]
-38912	98	0	Pagehit		value = 0 at PM[3840]
-63562	F8	4A	pageFault	value = 62 at PM[28234]
-64846	FD	4E	Pagehit		value = 63 at PM[2126]
-62938	F5	DA	pageFault	value = 61 at PM[28634]
-27194	6A	3A	pageFault	value = 26 at PM[28730]
-28804	70	84	Pagehit		value = 0 at PM[1412]
-61703	F1	7	Pagehit		value = 65 at PM[22279]
-10998	2A	F6	Pagehit		value = 10 at PM[12534]
-6596	19	C4	pageFault	value = 0 at PM[29124]
-37721	93	59	pageFault	value = 0 at PM[29273]
-43430	A9	A6	pageFault	value = 42 at PM[29606]
-22692	58	A4	Pagehit		value = 0 at PM[2980]
-62971	F5	FB	TLBhit	value = 126 at PM[28667]
-47125	B8	15	pageFault	value = 0 at PM[29717]
-52521	CD	29	pageFault	value = 0 at PM[29993]
-34646	87	56	Pagehit		value = 33 at PM[18006]
-32889	80	79	Pagehit		value = 0 at PM[4217]
-13055	32	FF	pageFault	value = -65 at PM[30463]
-65416	FF	88	pageFault	value = 0 at PM[30600]
-62869	F5	95	TLBhit	value = 0 at PM[28565]
-57314	DF	E2	pageFault	value = 55 at PM[30946]
-12659	31	73	pageFault	value = 92 at PM[31091]
-14052	36	E4	pageFault	value = 0 at PM[31460]
-32956	80	BC	Pagehit		value = 0 at PM[4284]
-49273	C0	79	Pagehit		value = 0 at PM[8569]
-50352	C4	B0	Pagehit		value = 0 at PM[14000]
-49737	C2	49	pageFault	value = 0 at PM[31561]
-15555	3C	C3	pageFault	value = 48 at PM[31939]
-47475	B9	73	pageFault	value = 92 at PM[32115]
-15328	3B	E0	pageFault	value = 0 at PM[32480]
-34621	87	3D	Pagehit		value = 0 at PM[17981]
-51365	C8	A5	pageFault	value = 0 at PM[32677]
-32820	80	34	Pagehit		value = 0 at PM[4148]
-48855	BE	D7	pageFault	value = -75 at PM[32983]
-12224	2F	C0	Pagehit		value = 0 at PM[2752]
-2035	7	F3	pageFault	value = -4 at PM[33267]
-60539	EC	7B	Pagehit		value = 30 at PM[7291]
-14595	39	3	pageFault	value = 64 at PM[33283]
-13853	36	1D	TLBhit	value = 0 at PM[31261]
-24143	5E	4F	pageFault	value = -109 at PM[33615]
-15216	3B	70	TLBhit	value = 0 at PM[32368]
-8113	1F	B1	pageFault	value = 0 at PM[33969]
-22640	58	70	Pagehit		value = 0 at PM[2928]
-32978	80	D2	Pagehit		value = 32 at PM[4306]
-39151	98	EF	Pagehit		value = 59 at PM[4079]
-19520	4C	40	Pagehit		value = 0 at PM[22592]
-58141	E3	1D	pageFault	value = 0 at PM[34077]
-63959	F9	D7	Pagehit		value = 117 at PM[21975]
-53040	CF	30	pageFault	value = 0 at PM[34352]
-55842	DA	22	pageFault	value = 54 at PM[34594]
-585	2	49	Pagehit		value = 0 at PM[17225]
-51229	C8	1D	TLBhit	value = 0 at PM[32541]
-64181	FA	B5	Pagehit		value = 0 at PM[4533]
-54879	D6	5F	Pagehit		value = -105 at PM[3679]
-28210	6E	32	pageFault	value = 27 at PM[34866]
-10268	28	1C	Pagehit		value = 0 at PM[14620]
-15395	3C	23	TLBhit	value = 8 at PM[31779]
-12884	32	54	Pagehit		value = 0 at PM[30292]
-2149	8	65	pageFault	value = 0 at PM[35173]
-53483	D0	EB	pageFault	value = 58 at PM[35563]
-59606	E8	D6	Pagehit		value = 58 at PM[26070]
-14981	3A	85	Pagehit		value = 0 at PM[24709]
-36672	8F	40	pageFault	value = 0 at PM[35648]
-23197	5A	9D	pageFault	value = 0 at PM[35997]
-36518	8E	A6	Pagehit		value = 35 at PM[14502]
-13361	34	31	pageFault	value = 0 at PM[36145]
-19810	4D	62	pageFault	value = 19 at PM[36450]
-25955	65	63	pageFault	value = 88 at PM[36707]
-62678	F4	D6	Pagehit		value = 61 at PM[470]
-26021	65	A5	TLBhit	value = 0 at PM[36773]
-29409	72	E1	pageFault	value = 0 at PM[37089]
-38111	94	DF	pageFault	value = 55 at PM[37343]
-58573	E4	CD	Pagehit		value = 0 at PM[15565]
-56840	DE	8	pageFault	value = 0 at PM[37384]
-41306	A1	5A	Pagehit		value = 40 at PM[24922]
-54426	D4	9A	Pagehit		value = 53 at PM[19354]
-3617	E	21	Pagehit		value = 0 at PM[10017]
-50652	C5	DC	Pagehit		value = 0 at PM[18652]
-41452	A1	EC	Pagehit		value = 0 at PM[25068]
-20241	4F	11	Pagehit		value = 0 at PM[16657]
-31723	7B	EB	Pagehit		value = -6 at PM[12267]
-53747	D1	F3	Pagehit		value = 124 at PM[1011]
-28550	6F	86	Pagehit		value = 27 at PM[28038]
-23402	5B	6A	Pagehit		value = 22 at PM[20586]
-21205	52	D5	pageFault	value = 0 at PM[37845]
-56181	DB	75	Pagehit		value = 0 at PM[25205]
-57470	E0	7E	pageFault	value = 56 at PM[38014]
-39933	9B	FD	pageFault	value = 0 at PM[38397]
-34964	88	94	Pagehit		value = 0 at PM[26772]
-24781	60	CD	pageFault	value = 0 at PM[38605]
-41747	A3	13	pageFault	value = -60 at PM[38675]
-62564	F4	64	Pagehit		value = 0 at PM[356]
-58461	E4	5D	Pagehit		value = 0 at PM[15453]
-20858	51	7A	pageFault	value = 20 at PM[39034]
-49301	C0	95	Pagehit		value = 0 at PM[8597]
-40572	9E	7C	pageFault	value = 0 at PM[39292]
-23840	5D	20	pageFault	value = 0 at PM[39456]
-35278	89	CE	pageFault	value = 34 at PM[39886]
-62905	F5	B9	Pagehit		value = 0 at PM[28601]
-56650	DD	4A	Pagehit		value = 55 at PM[13386]
-11149	2B	8D	pageFault	value = 0 at PM[40077]
-38920	98	8	Pagehit		value = 0 at PM[3848]
-23430	5B	86	Pagehit		value = 22 at PM[20614]
-57592	E0	F8	TLBhit	value = 0 at PM[38136]
-3080	C	8	pageFault	value = 0 at PM[40200]
-6677	1A	15	Pagehit		value = 0 at PM[6677]
-50704	C6	10	Pagehit		value = 0 at PM[26128]
-51883	CA	AB	Pagehit		value = -86 at PM[27307]
-62799	F5	4F	Pagehit		value = 83 at PM[28495]
-20188	4E	DC	pageFault	value = 0 at PM[40668]
-1245	4	DD	pageFault	value = 0 at PM[40925]
-12220	2F	BC	Pagehit		value = 0 at PM[2748]
-17602	44	C2	pageFault	value = 17 at PM[41154]
-28609	6F	C1	Pagehit		value = 0 at PM[28097]
-42694	A6	C6	Pagehit		value = 41 at PM[20934]
-29826	74	82	pageFault	value = 29 at PM[41346]
-13827	36	3	Pagehit		value = -128 at PM[31235]
-27336	6A	C8	Pagehit		value = 0 at PM[28872]
-53343	D0	5F	Pagehit		value = 23 at PM[35423]
-11533	2D	D	pageFault	value = 0 at PM[41485]
-41713	A2	F1	pageFault	value = 0 at PM[41969]
-33890	84	62	pageFault	value = 33 at PM[42082]
-4894	13	1E	Pagehit		value = 4 at PM[13598]
-57599	E0	FF	Pagehit		value = 63 at PM[38143]
-3870	F	1E	Pagehit		value = 3 at PM[18974]
-58622	E4	FE	Pagehit		value = 57 at PM[15614]
-29780	74	54	TLBhit	value = 0 at PM[41300]
-62553	F4	59	Pagehit		value = 0 at PM[345]
-2303	8	FF	Pagehit		value = 63 at PM[35327]
-51915	CA	CB	Pagehit		value = -78 at PM[27339]
-6251	18	6B	Pagehit		value = 26 at PM[7531]
-38107	94	DB	Pagehit		value = 54 at PM[37339]
-59325	E7	BD	Pagehit		value = 0 at PM[10429]
-61295	EF	6F	pageFault	value = -37 at PM[42351]
-26699	68	4B	pageFault	value = 18 at PM[42571]
-51188	C7	F4	pageFault	value = 0 at PM[42996]
-59519	E8	7F	Pagehit		value = 31 at PM[25983]
-7345	1C	B1	pageFault	value = 0 at PM[43185]
-20325	4F	65	Pagehit		value = 0 at PM[16741]
-39633	9A	D1	pageFault	value = 0 at PM[43473]
-1562	6	1A	pageFault	value = 1 at PM[43546]
-7580	1D	9C	Pagehit		value = 0 at PM[6300]
-8170	1F	EA	Pagehit		value = 7 at PM[34026]
-62256	F3	30	Pagehit		value = 0 at PM[23856]
-35823	8B	EF	pageFault	value = -5 at PM[44015]
-27790	6C	8E	pageFault	value = 27 at PM[44174]
-13191	33	87	pageFault	value = -31 at PM[44423]
-9772	26	2C	pageFault	value = 0 at PM[44588]
-7477	1D	35	Pagehit		value = 0 at PM[6197]
-44455	AD	A7	pageFault	value = 105 at PM[44967]
-59546	E8	9A	Pagehit		value = 58 at PM[26010]
-49347	C0	C3	Pagehit		value = 48 at PM[8643]
-36539	8E	BB	Pagehit		value = -82 at PM[14523]
-12453	30	A5	pageFault	value = 0 at PM[45221]
-49640	C1	E8	pageFault	value = 0 at PM[45544]
-28290	6E	82	Pagehit		value = 27 at PM[34946]
-44817	AF	11	Pagehit		value = 0 at PM[13073]
-8565	21	75	Pagehit		value = 0 at PM[20085]
-16399	40	F	pageFault	value = 3 at PM[45583]
-41934	A3	CE	Pagehit		value = 40 at PM[38862]
-45457	B1	91	pageFault	value = 0 at PM[45969]
-33856	84	40	TLBhit	value = 0 at PM[42048]
-19498	4C	2A	Pagehit		value = 19 at PM[22570]
-17661	44	FD	Pagehit		value = 0 at PM[41213]
-63829	F9	55	Pagehit		value = 0 at PM[21845]
-42034	A4	32	pageFault	value = 41 at PM[46130]
-28928	71	0	Pagehit		value = 0 at PM[16384]
-30711	77	F7	Pagehit		value = -3 at PM[16375]
-8800	22	60	pageFault	value = 0 at PM[46432]
-52335	CC	6F	pageFault	value = 27 at PM[46703]
-38775	97	77	pageFault	value = -35 at PM[46967]
-52704	CD	E0	Pagehit		value = 0 at PM[30176]
-24380	5F	3C	Pagehit		value = 0 at PM[1596]
-19602	4C	92	Pagehit		value = 19 at PM[22674]
-57998	E2	8E	Pagehit		value = 56 at PM[3214]
-2919	B	67	Pagehit		value = -39 at PM[11623]
-8362	20	AA	pageFault	value = 8 at PM[47274]
-17884	45	DC	Pagehit		value = 0 at PM[9948]
-45737	B2	A9	Pagehit		value = 0 at PM[7849]
-47894	BB	16	Pagehit		value = 46 at PM[25622]
-59667	E9	13	pageFault	value = 68 at PM[47379]
-10385	28	91	Pagehit		value = 0 at PM[14737]
-52782	CE	2E	pageFault	value = 51 at PM[47662]
-64416	FB	A0	Pagehit		value = 0 at PM[5024]
-40946	9F	F2	Pagehit		value = 39 at PM[8434]
-16778	41	8A	pageFault	value = 16 at PM[48010]
-27159	6A	17	Pagehit		value = -123 at PM[28695]
-24324	5F	4	Pagehit		value = 0 at PM[1540]
-32450	7E	C2	Pagehit		value = 31 at PM[7106]
-9108	23	94	pageFault	value = 0 at PM[48276]
-65305	FF	19	Pagehit		value = 0 at PM[30489]
-19575	4C	77	Pagehit		value = 29 at PM[22647]
-11117	2B	6D	Pagehit		value = 0 at PM[40045]
-65170	FE	92	pageFault	value = 63 at PM[48530]
-58013	E2	9D	Pagehit		value = 0 at PM[3229]
-61676	F0	EC	Pagehit		value = 0 at PM[23276]
-63510	F8	16	Pagehit		value = 62 at PM[28182]
-17458	44	32	Pagehit		value = 17 at PM[41010]
-54675	D5	93	pageFault	value = 100 at PM[48787]
-1713	6	B1	Pagehit		value = 0 at PM[43697]
-55105	D7	41	Pagehit		value = 0 at PM[5185]
-65321	FF	29	Pagehit		value = 0 at PM[30505]
-45278	B0	DE	pageFault	value = 44 at PM[49118]
-26256	66	90	pageFault	value = 0 at PM[49296]
-64198	FA	C6	Pagehit		value = 62 at PM[4550]
-29441	73	1	pageFault	value = 0 at PM[49409]
-1928	7	88	Pagehit		value = 0 at PM[33160]
-39425	9A	1	Pagehit		value = 0 at PM[43265]
-32000	7D	0	pageFault	value = 0 at PM[49664]
-28549	6F	85	Pagehit		value = 0 at PM[28037]
-46295	B4	D7	pageFault	value = 53 at PM[50135]
-22772	58	F4	Pagehit		value = 0 at PM[3060]
-58228	E3	74	Pagehit		value = 0 at PM[34164]
-63525	F8	25	Pagehit		value = 0 at PM[28197]
-32602	7F	5A	Pagehit		value = 31 at PM[9562]
-46195	B4	73	TLBhit	value = 28 at PM[50035]
-55849	DA	29	Pagehit		value = 0 at PM[34601]
-46454	B5	76	pageFault	value = 45 at PM[50294]
-7487	1D	3F	Pagehit		value = 79 at PM[6207]
-33879	84	57	Pagehit		value = 21 at PM[42071]
-42004	A4	14	Pagehit		value = 0 at PM[46100]
-8599	21	97	Pagehit		value = 101 at PM[20119]
-18641	48	D1	Pagehit		value = 0 at PM[5585]
-49015	BF	77	pageFault	value = -35 at PM[50551]
-26830	68	CE	Pagehit		value = 26 at PM[42702]
-34754	87	C2	Pagehit		value = 33 at PM[18114]
-14668	39	4C	Pagehit		value = 0 at PM[33356]
-38362	95	DA	Pagehit		value = 37 at PM[20442]
-38791	97	87	TLBhit	value = -31 at PM[46983]
-4171	10	4B	pageFault	value = 18 at PM[50763]
-45975	B3	97	pageFault	value = -27 at PM[51095]
-14623	39	1F	Pagehit		value = 71 at PM[33311]
-62393	F3	B9	Pagehit		value = 0 at PM[23993]
-64658	FC	92	Pagehit		value = 63 at PM[6546]
-10963	2A	D3	Pagehit		value = -76 at PM[12499]
-9058	23	62	TLBhit	value = 8 at PM[48226]
-51031	C7	57	Pagehit		value = -43 at PM[42839]
-32425	7E	A9	Pagehit		value = 0 at PM[7081]
-45483	B1	AB	Pagehit		value = 106 at PM[45995]
-44611	AE	43	Pagehit		value = -112 at PM[11075]
-63664	F8	B0	Pagehit		value = 0 at PM[28336]
-54920	D6	88	Pagehit		value = 0 at PM[3720]
-7663	1D	EF	Pagehit		value = 123 at PM[6383]
-56480	DC	A0	pageFault	value = 0 at PM[51360]
-1489	5	D1	pageFault	value = 0 at PM[51665]
-28438	6F	16	Pagehit		value = 27 at PM[27926]
-65449	FF	A9	Pagehit		value = 0 at PM[30633]
-12441	30	99	Pagehit		value = 0 at PM[45209]
-58530	E4	A2	Pagehit		value = 57 at PM[15522]
-63570	F8	52	Pagehit		value = 62 at PM[28242]
-26251	66	8B	TLBhit	value = -94 at PM[49291]
-15972	3E	64	Pagehit		value = 0 at PM[21092]
-35826	8B	F2	Pagehit		value = 34 at PM[44018]
-5491	15	73	Pagehit		value = 92 at PM[21619]
-54253	D3	ED	pageFault	value = 0 at PM[51949]
-49655	C1	F7	Pagehit		value = 125 at PM[45559]
-5868	16	EC	pageFault	value = 0 at PM[52204]
-20163	4E	C3	Pagehit		value = -80 at PM[40643]
-51079	C7	87	Pagehit		value = -31 at PM[42887]
-21398	53	96	Pagehit		value = 20 at PM[9110]
-32756	7F	F4	Pagehit		value = 0 at PM[9716]
-64196	FA	C4	Pagehit		value = 0 at PM[4548]
-43218	A8	D2	Pagehit		value = 42 at PM[17618]
-21583	54	4F	pageFault	value = 19 at PM[52303]
-25086	61	FE	pageFault	value = 24 at PM[52734]
-45515	B1	CB	Pagehit		value = 114 at PM[46027]
-12893	32	5D	Pagehit		value = 0 at PM[30301]
-22914	59	82	pageFault	value = 22 at PM[52866]
-58969	E6	59	Pagehit		value = 0 at PM[14937]
-20094	4E	7E	Pagehit		value = 19 at PM[40574]
-13730	35	A2	pageFault	value = 13 at PM[53154]
-44059	AC	1B	pageFault	value = 6 at PM[53275]
-28931	71	3	Pagehit		value = 64 at PM[16387]
-13533	34	DD	Pagehit		value = 0 at PM[36317]
-33134	81	6E	pageFault	value = 32 at PM[53614]
-28483	6F	43	Pagehit		value = -48 at PM[27971]
-1220	4	C4	Pagehit		value = 0 at PM[40900]
-38174	95	1E	Pagehit		value = 37 at PM[20254]
-53502	D0	FE	Pagehit		value = 52 at PM[35582]
-43328	A9	40	Pagehit		value = 0 at PM[29504]
-4970	13	6A	Pagehit		value = 4 at PM[13674]
-8090	1F	9A	Pagehit		value = 7 at PM[33946]
-2661	A	65	pageFault	value = 0 at PM[53861]
-53903	D2	8F	pageFault	value = -93 at PM[54159]
-11025	2B	11	Pagehit		value = 0 at PM[39953]
-26627	68	3	Pagehit		value = 0 at PM[42499]
-18117	46	C5	Pagehit		value = 0 at PM[18885]
-14505	38	A9	Pagehit		value = 0 at PM[5801]
-61528	F0	58	Pagehit		value = 0 at PM[23128]
-20423	4F	C7	Pagehit		value = -15 at PM[16839]
-26962	69	52	Pagehit		value = 26 at PM[26962]
-36392	8E	28	Pagehit		value = 0 at PM[14376]
-11365	2C	65	pageFault	value = 0 at PM[54373]
-50882	C6	C2	Pagehit		value = 49 at PM[26306]
-41668	A2	C4	Pagehit		value = 0 at PM[41924]
-30497	77	21	Pagehit		value = 0 at PM[16161]
-36216	8D	78	pageFault	value = 0 at PM[54648]
-5619	15	F3	Pagehit		value = 124 at PM[21747]
-36983	90	77	Pagehit		value = 29 at PM[18295]
-59557	E8	A5	Pagehit		value = 0 at PM[26021]
-36663	8F	37	Pagehit		value = -51 at PM[35639]
-36436	8E	54	Pagehit		value = 0 at PM[14420]
-37057	90	C1	Pagehit		value = 0 at PM[18369]
-23585	5C	21	pageFault	value = 0 at PM[54817]
-58791	E5	A7	pageFault	value = 105 at PM[55207]
-46666	B6	4A	pageFault	value = 45 at PM[55370]
-64475	FB	DB	Pagehit		value = -10 at PM[5083]
-21615	54	6F	TLBhit	value = 27 at PM[52335]
-41090	A0	82	Pagehit		value = 40 at PM[8834]
-1771	6	EB	Pagehit		value = -70 at PM[43755]
-47513	B9	99	Pagehit		value = 0 at PM[32153]
-39338	99	AA	pageFault	value = 38 at PM[55722]
-1390	5	6E	Pagehit		value = 1 at PM[51566]
-38772	97	74	Pagehit		value = 0 at PM[46964]
-58149	E3	25	Pagehit		value = 0 at PM[34085]
-7196	1C	1C	Pagehit		value = 0 at PM[43036]
-9123	23	A3	Pagehit		value = -24 at PM[48291]
-7491	1D	43	Pagehit		value = 80 at PM[6211]
-62616	F4	98	Pagehit		value = 0 at PM[408]
-15436	3C	4C	Pagehit		value = 0 at PM[31820]
-17491	44	53	Pagehit		value = 20 at PM[41043]
-53656	D1	98	Pagehit		value = 0 at PM[920]
-26449	67	51	Pagehit		value = 0 at PM[24401]
-34935	88	77	Pagehit		value = 29 at PM[26743]
-19864	4D	98	Pagehit		value = 0 at PM[36504]
-51388	C8	BC	Pagehit		value = 0 at PM[32700]
-15155	3B	33	Pagehit		value = -52 at PM[32307]
-64775	FD	7	Pagehit		value = 65 at PM[2055]
-47969	BB	61	Pagehit		value = 0 at PM[25697]
-16315	3F	BB	pageFault	value = -18 at PM[55995]
-1342	5	3E	Pagehit		value = 1 at PM[51518]
-51185	C7	F1	Pagehit		value = 0 at PM[42993]
-6043	17	9B	Pagehit		value = -26 at PM[9371]
-21398	53	96	Pagehit		value = 20 at PM[9110]
-3273	C	C9	Pagehit		value = 0 at PM[40393]
-9370	24	9A	Pagehit		value = 9 at PM[22938]
-35463	8A	87	pageFault	value = -95 at PM[56199]
-28205	6E	2D	Pagehit		value = 0 at PM[34861]
-2351	9	2F	Pagehit		value = 75 at PM[4655]
-28999	71	47	Pagehit		value = 81 at PM[16455]
-47699	BA	53	pageFault	value = -108 at PM[56403]
-46870	B7	16	Pagehit		value = 45 at PM[19734]
-22311	57	27	Pagehit		value = -55 at PM[11303]
-22124	56	6C	pageFault	value = 0 at PM[56684]
-22427	57	9B	Pagehit		value = -26 at PM[11419]
-49344	C0	C0	Pagehit		value = 0 at PM[8640]
-23224	5A	B8	Pagehit		value = 0 at PM[36024]
-5514	15	8A	Pagehit		value = 5 at PM[21642]
-20504	50	18	pageFault	value = 0 at PM[56856]
-376	1	78	pageFault	value = 0 at PM[57208]
-2014	7	DE	Pagehit		value = 1 at PM[33246]
-38700	97	2C	Pagehit		value = 0 at PM[46892]
-13098	33	2A	Pagehit		value = 12 at PM[44330]
-62435	F3	E3	Pagehit		value = -8 at PM[24035]
-48046	BB	AE	Pagehit		value = 46 at PM[25774]
-63464	F7	E8	Pagehit		value = 0 at PM[17128]
-12798	31	FE	Pagehit		value = 12 at PM[31230]
-51178	C7	EA	Pagehit		value = 49 at PM[42986]
-8627	21	B3	Pagehit		value = 108 at PM[20147]
-27083	69	CB	Pagehit		value = 114 at PM[27083]
-47198	B8	5E	Pagehit		value = 46 at PM[29790]
-44021	AB	F5	pageFault	value = 0 at PM[57589]
-32792	80	18	Pagehit		value = 0 at PM[4120]
-43996	AB	DC	TLBhit	value = 0 at PM[57564]
-41126	A0	A6	Pagehit		value = 40 at PM[8870]
-64244	FA	F4	Pagehit		value = 0 at PM[4596]
-37047	90	B7	Pagehit		value = 45 at PM[18359]
-60281	EB	79	pageFault	value = 0 at PM[57721]
-52904	CE	A8	Pagehit		value = 0 at PM[47784]
-7768	1E	58	pageFault	value = 0 at PM[57944]
-55359	D8	3F	pageFault	value = 15 at PM[58175]
-3230	C	9E	Pagehit		value = 3 at PM[40350]
-44813	AF	D	Pagehit		value = 0 at PM[13069]
-4116	10	14	Pagehit		value = 0 at PM[50708]
-65222	FE	C6	Pagehit		value = 63 at PM[48582]
-28083	6D	B3	Pagehit		value = 108 at PM[3507]
-60660	EC	F4	Pagehit		value = 0 at PM[7412]
-39	0	27	pageFault	value = 9 at PM[58407]
-328	1	48	TLBhit	value = 0 at PM[57160]
-47868	BA	FC	TLBhit	value = 0 at PM[56572]
-13009	32	D1	Pagehit		value = 0 at PM[30417]
-22378	57	6A	Pagehit		value = 21 at PM[11370]
-39304	99	88	TLBhit	value = 0 at PM[55688]
-11171	2B	A3	Pagehit		value = -24 at PM[40099]
-8079	1F	8F	Pagehit		value = -29 at PM[33935]
-52879	CE	8F	Pagehit		value = -93 at PM[47759]
-5123	14	3	Pagehit		value = 0 at PM[15107]
-4356	11	4	pageFault	value = 0 at PM[58628]
-45745	B2	B1	Pagehit		value = 0 at PM[7857]
-32952	80	B8	Pagehit		value = 0 at PM[4280]
-4657	12	31	Pagehit		value = 0 at PM[27697]
-24142	5E	4E	Pagehit		value = 23 at PM[33614]
-23319	5B	17	Pagehit		value = -59 at PM[20503]
-13607	35	27	Pagehit		value = 73 at PM[53031]
-46304	B4	E0	Pagehit		value = 0 at PM[50144]
-17677	45	D	Pagehit		value = 0 at PM[9741]
-59691	E9	2B	Pagehit		value = 74 at PM[47403]
-50967	C7	17	Pagehit		value = -59 at PM[42775]
-7817	1E	89	TLBhit	value = 0 at PM[57993]
-8545	21	61	Pagehit		value = 0 at PM[20065]
-55297	D8	1	TLBhit	value = 0 at PM[58113]
-52954	CE	DA	Pagehit		value = 51 at PM[47834]
-39720	9B	28	Pagehit		value = 0 at PM[38184]
-18455	48	17	Pagehit		value = 5 at PM[5399]
-30349	76	8D	pageFault	value = 0 at PM[59021]
-63270	F7	26	Pagehit		value = 61 at PM[16934]
-27156	6A	14	Pagehit		value = 0 at PM[28692]
-20614	50	86	TLBhit	value = 20 at PM[56966]
-19372	4B	AC	Pagehit		value = 0 at PM[14252]
-48689	BE	31	Pagehit		value = 0 at PM[32817]
-49386	C0	EA	Pagehit		value = 48 at PM[8682]
-50584	C5	98	Pagehit		value = 0 at PM[18584]
-51936	CA	E0	Pagehit		value = 0 at PM[27360]
-34705	87	91	Pagehit		value = 0 at PM[18065]
-13653	35	55	Pagehit		value = 0 at PM[53077]
-50077	C3	9D	pageFault	value = 0 at PM[59293]
-54518	D4	F6	Pagehit		value = 53 at PM[19446]
-41482	A2	A	Pagehit		value = 40 at PM[41738]
-4169	10	49	Pagehit		value = 0 at PM[50761]
-36118	8D	16	Pagehit		value = 35 at PM[54550]
-9584	25	70	pageFault	value = 0 at PM[59504]
-18490	48	3A	Pagehit		value = 18 at PM[5434]
-55420	D8	7C	TLBhit	value = 0 at PM[58236]
-5708	16	4C	Pagehit		value = 0 at PM[52044]
-23506	5B	D2	Pagehit		value = 22 at PM[20690]
-15391	3C	1F	Pagehit		value = 7 at PM[31775]
-36368	8E	10	Pagehit		value = 0 at PM[14352]
-38976	98	40	Pagehit		value = 0 at PM[3904]
-50406	C4	E6	Pagehit		value = 49 at PM[14054]
-49236	C0	54	Pagehit		value = 0 at PM[8532]
-65035	FE	B	Pagehit		value = -126 at PM[48395]
-30120	75	A8	Pagehit		value = 0 at PM[680]
-62551	F4	57	Pagehit		value = 21 at PM[343]
-46809	B6	D9	Pagehit		value = 0 at PM[55513]
-21687	54	B7	Pagehit		value = 45 at PM[52407]
-53839	D2	4F	Pagehit		value = -109 at PM[54095]
-2098	8	32	Pagehit		value = 2 at PM[35122]
-12364	30	4C	Pagehit		value = 0 at PM[45132]
-45366	B1	36	Pagehit		value = 44 at PM[45878]
-50437	C5	5	Pagehit		value = 0 at PM[18437]
-36675	8F	43	Pagehit		value = -48 at PM[35651]
-55382	D8	56	TLBhit	value = 54 at PM[58198]
-11846	2E	46	pageFault	value = 11 at PM[59718]
-49127	BF	E7	Pagehit		value = -7 at PM[50663]
-19900	4D	BC	Pagehit		value = 0 at PM[36540]
-20554	50	4A	TLBhit	value = 20 at PM[56906]
-19219	4B	13	Pagehit		value = -60 at PM[14099]
-51483	C9	1B	Pagehit		value = 70 at PM[15899]
-58090	E2	EA	Pagehit		value = 56 at PM[3306]
-39074	98	A2	Pagehit		value = 38 at PM[4002]
-16060	3E	BC	Pagehit		value = 0 at PM[21180]
-10447	28	CF	Pagehit		value = 51 at PM[14799]
-54169	D3	99	Pagehit		value = 0 at PM[51865]
-20634	50	9A	TLBhit	value = 20 at PM[56986]
-57555	E0	D3	Pagehit		value = 52 at PM[38099]
-61210	EF	1A	Pagehit		value = 59 at PM[42266]
-269	1	D	TLBhit	value = 0 at PM[57101]
-33154	81	82	Pagehit		value = 32 at PM[53634]
-64487	FB	E7	Pagehit		value = -7 at PM[5095]
-61223	EF	27	Pagehit		value = -55 at PM[42279]
-47292	B8	BC	Pagehit		value = 0 at PM[29884]
-21852	55	5C	Pagehit		value = 0 at PM[24156]
-5281	14	A1	Pagehit		value = 0 at PM[15265]
-45912	B3	58	Pagehit		value = 0 at PM[51032]
-32532	7F	14	Pagehit		value = 0 at PM[9492]
-63067	F6	5B	Pagehit		value = -106 at PM[22107]
-41683	A2	D3	Pagehit		value = -76 at PM[41939]
-20981	51	F5	Pagehit		value = 0 at PM[39157]
-33881	84	59	Pagehit		value = 0 at PM[42073]
-41785	A3	39	Pagehit		value = 0 at PM[38713]
-4580	11	E4	TLBhit	value = 0 at PM[58852]
-41389	A1	AD	Pagehit		value = 0 at PM[25005]
-28572	6F	9C	Pagehit		value = 0 at PM[28060]
-782	3	E	Pagehit		value = 0 at PM[7950]
-30273	76	41	TLBhit	value = 0 at PM[58945]
-62267	F3	3B	Pagehit		value = -50 at PM[23867]
-17922	46	2	Pagehit		value = 17 at PM[18690]
-63238	F7	6	Pagehit		value = 61 at PM[16902]
-3308	C	EC	Pagehit		value = 0 at PM[40428]
-26545	67	B1	Pagehit		value = 0 at PM[24497]
-44395	AD	6B	Pagehit		value = 90 at PM[44907]
-39120	98	D0	Pagehit		value = 0 at PM[4048]
-21706	54	CA	Pagehit		value = 21 at PM[52426]
-7144	1B	E8	Pagehit		value = 0 at PM[26600]
-30244	76	24	TLBhit	value = 0 at PM[58916]
-3725	E	8D	Pagehit		value = 0 at PM[10125]
-54632	D5	68	Pagehit		value = 0 at PM[48744]
-30574	77	6E	Pagehit		value = 29 at PM[16238]
-8473	21	19	Pagehit		value = 0 at PM[19993]
-12386	30	62	Pagehit		value = 12 at PM[45154]
-41114	A0	9A	Pagehit		value = 40 at PM[8858]
-57930	E2	4A	Pagehit		value = 56 at PM[3146]
-15341	3B	ED	Pagehit		value = 0 at PM[32493]
-15598	3C	EE	Pagehit		value = 15 at PM[31982]
-59922	EA	12	Pagehit		value = 58 at PM[10514]
-18226	47	32	Pagehit		value = 17 at PM[2354]
-48162	BC	22	Pagehit		value = 47 at PM[17698]
-41250	A1	22	Pagehit		value = 40 at PM[24866]
-1512	5	E8	Pagehit		value = 0 at PM[51688]
-2546	9	F2	Pagehit		value = 2 at PM[4850]
-41682	A2	D2	Pagehit		value = 40 at PM[41938]
-322	1	42	TLBhit	value = 0 at PM[57154]
-880	3	70	Pagehit		value = 0 at PM[8048]
-20891	51	9B	Pagehit		value = 102 at PM[39067]
-56604	DD	1C	Pagehit		value = 0 at PM[13340]
-40166	9C	E6	Pagehit		value = 39 at PM[1254]
-26791	68	A7	Pagehit		value = 41 at PM[42663]
-44560	AE	10	Pagehit		value = 0 at PM[11024]
-38698	97	2A	Pagehit		value = 37 at PM[46890]
-64127	FA	7F	Pagehit		value = -97 at PM[4479]
-15028	3A	B4	Pagehit		value = 0 at PM[24756]
-38669	97	D	Pagehit		value = 0 at PM[46861]
-45637	B2	45	Pagehit		value = 0 at PM[7749]
-43151	A8	8F	Pagehit		value = 35 at PM[17551]
-9465	24	F9	Pagehit		value = 0 at PM[23033]
-2498	9	C2	Pagehit		value = 2 at PM[4802]
-13978	36	9A	Pagehit		value = 13 at PM[31386]
-16326	3F	C6	TLBhit	value = 15 at PM[56006]
-51442	C8	F2	Pagehit		value = 50 at PM[32754]
-34845	88	1D	Pagehit		value = 0 at PM[26653]
-63667	F8	B3	Pagehit		value = 44 at PM[28339]
-39370	99	CA	Pagehit		value = 38 at PM[55754]
-55671	D9	77	pageFault	value = 93 at PM[60023]
-64496	FB	F0	Pagehit		value = 0 at PM[5104]
-7767	1E	57	TLBhit	value = -107 at PM[57943]
-6283	18	8B	Pagehit		value = 34 at PM[7563]
-55884	DA	4C	Pagehit		value = 0 at PM[34636]
-61103	EE	AF	Pagehit		value = -85 at PM[6063]
-10184	27	C8	pageFault	value = 0 at PM[60360]
-39543	9A	77	Pagehit		value = -99 at PM[43383]
-9555	25	53	TLBhit	value = 84 at PM[59475]
-13963	36	8B	Pagehit		value = -94 at PM[31371]
-58975	E6	5F	Pagehit		value = -105 at PM[14943]
-19537	4C	51	Pagehit		value = 0 at PM[22609]
-6101	17	D5	Pagehit		value = 0 at PM[9429]
-41421	A1	CD	Pagehit		value = 0 at PM[25037]
-45502	B1	BE	Pagehit		value = 44 at PM[46014]
-29328	72	90	Pagehit		value = 0 at PM[37008]
-8149	1F	D5	Pagehit		value = 0 at PM[34005]
-25450	63	6A	pageFault	value = 24 at PM[60522]
-58944	E6	40	Pagehit		value = 0 at PM[14912]
-50666	C5	EA	Pagehit		value = 49 at PM[18666]
-23084	5A	2C	Pagehit		value = 0 at PM[35884]
-36468	8E	74	Pagehit		value = 0 at PM[14452]
-33645	83	6D	pageFault	value = 0 at PM[60781]
-25002	61	AA	Pagehit		value = 24 at PM[52650]
-53715	D1	D3	Pagehit		value = 116 at PM[979]
-60173	EB	D	TLBhit	value = 0 at PM[57613]
-46354	B5	12	Pagehit		value = 45 at PM[50194]
-4708	12	64	Pagehit		value = 0 at PM[27748]
-28208	6E	30	Pagehit		value = 0 at PM[34864]
-58844	E5	DC	Pagehit		value = 0 at PM[55260]
-22173	56	9D	Pagehit		value = 0 at PM[56733]
-8535	21	57	Pagehit		value = 85 at PM[20055]
-42261	A5	15	Pagehit		value = 0 at PM[10773]
-29687	73	F7	Pagehit		value = -3 at PM[49655]
-37799	93	A7	Pagehit		value = -23 at PM[29351]
-22566	58	26	Pagehit		value = 22 at PM[2854]
-62520	F4	38	Pagehit		value = 0 at PM[312]
-4098	10	2	Pagehit		value = 4 at PM[50690]
-47999	BB	7F	Pagehit		value = -33 at PM[25727]
-49660	C1	FC	Pagehit		value = 0 at PM[45564]
-37063	90	C7	Pagehit		value = 49 at PM[18375]
-41856	A3	80	Pagehit		value = 0 at PM[38784]
-5417	15	29	Pagehit		value = 0 at PM[21545]
-48856	BE	D8	Pagehit		value = 0 at PM[32984]
-10682	29	BA	Pagehit		value = 10 at PM[27578]
-22370	57	62	Pagehit		value = 21 at PM[11362]
-63281	F7	31	Pagehit		value = 0 at PM[16945]
-62452	F3	F4	Pagehit		value = 0 at PM[24052]
-50532	C5	64	Pagehit		value = 0 at PM[18532]
-9022	23	3E	Pagehit		value = 8 at PM[48190]
-59300	E7	A4	Pagehit		value = 0 at PM[10404]
-58660	E5	24	Pagehit		value = 0 at PM[55076]
-56401	DC	51	Pagehit		value = 0 at PM[51281]
-8518	21	46	Pagehit		value = 8 at PM[20038]
-63066	F6	5A	Pagehit		value = 61 at PM[22106]
-63250	F7	12	Pagehit		value = 61 at PM[16914]
-48592	BD	D0	Pagehit		value = 0 at PM[2000]
-28771	70	63	Pagehit		value = 24 at PM[1379]
-37673	93	29	Pagehit		value = 0 at PM[29225]
-60776	ED	68	Pagehit		value = 0 at PM[23656]
-56438	DC	76	Pagehit		value = 55 at PM[51318]
-60424	EC	8	Pagehit		value = 0 at PM[7176]
-39993	9C	39	Pagehit		value = 0 at PM[1081]
-56004	DA	C4	Pagehit		value = 0 at PM[34756]
-59002	E6	7A	Pagehit		value = 57 at PM[14970]
-33982	84	BE	Pagehit		value = 33 at PM[42174]
-25498	63	9A	TLBhit	value = 24 at PM[60570]
-57047	DE	D7	Pagehit		value = -75 at PM[37591]
-1401	5	79	Pagehit		value = 0 at PM[51577]
-15130	3B	1A	Pagehit		value = 14 at PM[32282]
-42960	A7	D0	Pagehit		value = 0 at PM[19664]
-61827	F1	83	Pagehit		value = 96 at PM[22403]
-32442	7E	BA	Pagehit		value = 31 at PM[7098]
-64304	FB	30	Pagehit		value = 0 at PM[4912]
-30273	76	41	TLBhit	value = 0 at PM[58945]
-38082	94	C2	Pagehit		value = 37 at PM[37314]
-22404	57	84	Pagehit		value = 0 at PM[11396]
-3808	E	E0	Pagehit		value = 0 at PM[10208]
-16883	41	F3	Pagehit		value = 124 at PM[48115]
-23111	5A	47	Pagehit		value = -111 at PM[35911]
-62417	F3	D1	Pagehit		value = 0 at PM[24017]
-60364	EB	CC	TLBhit	value = 0 at PM[57804]
-4542	11	BE	TLBhit	value = 4 at PM[58814]
-14829	39	ED	Pagehit		value = 0 at PM[33517]
-44964	AF	A4	Pagehit		value = 0 at PM[13220]
-33924	84	84	Pagehit		value = 0 at PM[42116]
-2141	8	5D	Pagehit		value = 0 at PM[35165]
-19245	4B	2D	Pagehit		value = 0 at PM[14125]
-47168	B8	40	Pagehit		value = 0 at PM[29760]
-24048	5D	F0	Pagehit		value = 0 at PM[39664]
-1022	3	FE	Pagehit		value = 0 at PM[8190]
-23075	5A	23	Pagehit		value = -120 at PM[35875]
-24888	61	38	Pagehit		value = 0 at PM[52536]
-49247	C0	5F	Pagehit		value = 23 at PM[8543]
-4900	13	24	Pagehit		value = 0 at PM[13604]
-22656	58	80	Pagehit		value = 0 at PM[2944]
-34117	85	45	pageFault	value = 0 at PM[60997]
-55555	D9	3	TLBhit	value = 64 at PM[59907]
-48947	BF	33	Pagehit		value = -52 at PM[50483]
-59533	E8	8D	Pagehit		value = 0 at PM[25997]
-21312	53	40	Pagehit		value = 0 at PM[9024]
-21415	53	A7	Pagehit		value = -23 at PM[9127]
-813	3	2D	Pagehit		value = 0 at PM[7981]
-19419	4B	DB	Pagehit		value = -10 at PM[14299]
-1999	7	CF	Pagehit		value = -13 at PM[33231]
-20155	4E	BB	Pagehit		value = -82 at PM[40635]
-21521	54	11	Pagehit		value = 0 at PM[52241]
-13670	35	66	Pagehit		value = 13 at PM[53094]
-19289	4B	59	Pagehit		value = 0 at PM[14169]
-58483	E4	73	Pagehit		value = 28 at PM[15475]
-41318	A1	66	Pagehit		value = 40 at PM[24934]
-16151	3F	17	Pagehit		value = -59 at PM[55831]
-13611	35	2B	Pagehit		value = 74 at PM[53035]
-21514	54	A	Pagehit		value = 21 at PM[52234]
-13499	34	BB	Pagehit		value = 46 at PM[36283]
-45583	B2	F	Pagehit		value = -125 at PM[7695]
-49013	BF	75	Pagehit		value = 0 at PM[50549]
-64843	FD	4B	Pagehit		value = 82 at PM[2123]
-63485	F7	FD	Pagehit		value = 0 at PM[17149]
-38697	97	29	Pagehit		value = 0 at PM[46889]
-59188	E7	34	Pagehit		value = 0 at PM[10292]
-24593	60	11	Pagehit		value = 0 at PM[38417]
-57641	E1	29	pageFault	value = 0 at PM[61225]
-36524	8E	AC	Pagehit		value = 0 at PM[14508]
-56980	DE	94	Pagehit		value = 0 at PM[37524]
-36810	8F	CA	Pagehit		value = 35 at PM[35786]
-6096	17	D0	Pagehit		value = 0 at PM[9424]
-11070	2B	3E	Pagehit		value = 10 at PM[39998]
-60124	EA	DC	Pagehit		value = 0 at PM[10716]
-37576	92	C8	Pagehit		value = 0 at PM[21448]
-15096	3A	F8	Pagehit		value = 0 at PM[24824]
-45247	B0	BF	Pagehit		value = 47 at PM[49087]
-32783	80	F	Pagehit		value = 3 at PM[4111]
-58390	E4	16	Pagehit		value = 57 at PM[15382]
-60873	ED	C9	Pagehit		value = 0 at PM[23753]
-23719	5C	A7	Pagehit		value = 41 at PM[54951]
-24385	5F	41	Pagehit		value = 0 at PM[1601]
-22307	57	23	Pagehit		value = -56 at PM[11299]
-17375	43	DF	pageFault	value = -9 at PM[61663]
-15990	3E	76	Pagehit		value = 15 at PM[21110]
-20526	50	2E	Pagehit		value = 20 at PM[56878]
-25904	65	30	Pagehit		value = 0 at PM[36656]
-42224	A4	F0	Pagehit		value = 0 at PM[46320]
-9311	24	5F	Pagehit		value = 23 at PM[22879]
-7862	1E	B6	TLBhit	value = 7 at PM[58038]
-3835	E	FB	Pagehit		value = -66 at PM[10235]
-30535	77	47	Pagehit		value = -47 at PM[16199]
-65179	FE	9B	Pagehit		value = -90 at PM[48539]
-57387	E0	2B	Pagehit		value = 10 at PM[37931]
-63579	F8	5B	Pagehit		value = 22 at PM[28251]
-4946	13	52	Pagehit		value = 4 at PM[13650]
-9037	23	4D	Pagehit		value = 0 at PM[48205]
-61033	EE	69	Pagehit		value = 0 at PM[5993]
-55543	D8	F7	TLBhit	value = 61 at PM[58359]
-50361	C4	B9	Pagehit		value = 0 at PM[14009]
-6480	19	50	Pagehit		value = 0 at PM[29008]
-14042	36	DA	Pagehit		value = 13 at PM[31450]
-21531	54	1B	Pagehit		value = 6 at PM[52251]
-39195	99	1B	Pagehit		value = 70 at PM[55579]
-37511	92	87	Pagehit		value = -95 at PM[21383]
-23696	5C	90	Pagehit		value = 0 at PM[54928]
-27440	6B	30	Pagehit		value = 0 at PM[15664]
-28201	6E	29	Pagehit		value = 0 at PM[34857]
-23072	5A	20	Pagehit		value = 0 at PM[35872]
-7814	1E	86	TLBhit	value = 7 at PM[57990]
-6552	19	98	Pagehit		value = 0 at PM[29080]
-43637	AA	75	Pagehit		value = 0 at PM[12661]
-35113	89	29	Pagehit		value = 0 at PM[39721]
-34890	88	4A	Pagehit		value = 34 at PM[26698]
-61297	EF	71	Pagehit		value = 0 at PM[42353]
-45633	B2	41	Pagehit		value = 0 at PM[7745]
-61431	EF	F7	Pagehit		value = -3 at PM[42487]
-46032	B3	D0	Pagehit		value = 0 at PM[51152]
-18774	49	56	pageFault	value = 18 at PM[61782]
-62991	F6	F	Pagehit		value = -125 at PM[22031]
-28059	6D	9B	Pagehit		value = 102 at PM[3483]
-35229	89	9D	Pagehit		value = 0 at PM[39837]
-51230	C8	1E	Pagehit		value = 50 at PM[32542]
-14405	38	45	Pagehit		value = 0 at PM[5701]
-52242	CC	12	Pagehit		value = 51 at PM[46610]
-43153	A8	91	Pagehit		value = 0 at PM[17553]
-2709	A	95	Pagehit		value = 0 at PM[53909]
-47963	BB	5B	Pagehit		value = -42 at PM[25691]
-36943	90	4F	Pagehit		value = 19 at PM[18255]
-54066	D3	32	Pagehit		value = 52 at PM[51762]
-10054	27	46	TLBhit	value = 9 at PM[60230]
-43051	A8	2B	Pagehit		value = 10 at PM[17451]
-11525	2D	5	Pagehit		value = 0 at PM[41477]
-17684	45	14	Pagehit		value = 0 at PM[9748]
-41681	A2	D1	Pagehit		value = 0 at PM[41937]
-27883	6C	EB	Pagehit		value = 58 at PM[44267]
-56909	DE	4D	Pagehit		value = 0 at PM[37453]
-45772	B2	CC	Pagehit		value = 0 at PM[7884]
-27496	6B	68	Pagehit		value = 0 at PM[15720]
-46842	B6	FA	Pagehit		value = 45 at PM[55546]
-38734	97	4E	Pagehit		value = 37 at PM[46926]
-28972	71	2C	Pagehit		value = 0 at PM[16428]
-59684	E9	24	Pagehit		value = 0 at PM[47396]
-11384	2C	78	Pagehit		value = 0 at PM[54392]
-21018	52	1A	Pagehit		value = 20 at PM[37658]
-2192	8	90	Pagehit		value = 0 at PM[35216]
-18384	47	D0	Pagehit		value = 0 at PM[2512]
-13464	34	98	Pagehit		value = 0 at PM[36248]
-31018	79	2A	pageFault	value = 30 at PM[61994]
-62958	F5	EE	Pagehit		value = 61 at PM[28654]
-30611	77	93	Pagehit		value = -28 at PM[16275]
-1913	7	79	Pagehit		value = 0 at PM[33145]
-18904	49	D8	TLBhit	value = 0 at PM[61912]
-26773	68	95	Pagehit		value = 0 at PM[42645]
-55491	D8	C3	TLBhit	value = 48 at PM[58307]
-21899	55	8B	Pagehit		value = 98 at PM[24203]
-64413	FB	9D	Pagehit		value = 0 at PM[5021]
-47134	B8	1E	Pagehit		value = 46 at PM[29726]
-23172	5A	84	Pagehit		value = 0 at PM[35972]
-7262	1C	5E	Pagehit		value = 7 at PM[43102]
-12705	31	A1	Pagehit		value = 0 at PM[31137]
-7522	1D	62	Pagehit		value = 7 at PM[6242]
-58815	E5	BF	Pagehit		value = 111 at PM[55231]
-34916	88	64	Pagehit		value = 0 at PM[26724]
-3802	E	DA	Pagehit		value = 3 at PM[10202]
-58008	E2	98	Pagehit		value = 0 at PM[3224]
-1239	4	D7	Pagehit		value = 53 at PM[40919]
-63947	F9	CB	Pagehit		value = 114 at PM[21963]
-381	1	7D	Pagehit		value = 0 at PM[57213]
-60734	ED	3E	Pagehit		value = 59 at PM[23614]
-48769	BE	81	Pagehit		value = 0 at PM[32897]
-41938	A3	D2	Pagehit		value = 40 at PM[38866]
-38025	94	89	Pagehit		value = 0 at PM[37257]
-55099	D7	3B	Pagehit		value = -50 at PM[5179]
-56691	DD	73	Pagehit		value = 92 at PM[13427]
-39530	9A	6A	Pagehit		value = 38 at PM[43370]
-59003	E6	7B	Pagehit		value = -98 at PM[14971]
-6029	17	8D	Pagehit		value = 0 at PM[9357]
-20920	51	B8	Pagehit		value = 0 at PM[39096]
-8077	1F	8D	Pagehit		value = 0 at PM[33933]
-42633	A6	89	Pagehit		value = 0 at PM[20873]
-17443	44	23	Pagehit		value = 8 at PM[40995]
-53570	D1	42	Pagehit		value = 52 at PM[834]
-22833	59	31	Pagehit		value = 0 at PM[52785]
-3782	E	C6	Pagehit		value = 3 at PM[10182]
-47758	BA	8E	Pagehit		value = 46 at PM[56462]
-22136	56	78	Pagehit		value = 0 at PM[56696]
-22427	57	9B	Pagehit		value = -26 at PM[11419]
-23867	5D	3B	Pagehit		value = 78 at PM[39483]
-59968	EA	40	Pagehit		value = 0 at PM[10560]
-62166	F2	D6	pageFault	value = 60 at PM[62422]
-6972	1B	3C	Pagehit		value = 0 at PM[26428]
-63684	F8	C4	Pagehit		value = 0 at PM[28356]
-46388	B5	34	Pagehit		value = 0 at PM[50228]
-41942	A3	D6	Pagehit		value = 40 at PM[38870]
-36524	8E	AC	Pagehit		value = 0 at PM[14508]
-9323	24	6B	Pagehit		value = 26 at PM[22891]
-31114	79	8A	TLBhit	value = 30 at PM[62090]
-22345	57	49	Pagehit		value = 0 at PM[11337]
-46463	B5	7F	Pagehit		value = 95 at PM[50303]
-54671	D5	8F	Pagehit		value = 99 at PM[48783]
-9214	23	FE	Pagehit		value = 8 at PM[48382]
-7257	1C	59	Pagehit		value = 0 at PM[43097]
-33150	81	7E	Pagehit		value = 32 at PM[53630]
-41565	A2	5D	Pagehit		value = 0 at PM[41821]
-26214	66	66	Pagehit		value = 25 at PM[49254]
-3595	E	B	Pagehit		value = -126 at PM[9995]
-17932	46	C	Pagehit		value = 0 at PM[18700]
-34660	87	64	Pagehit		value = 0 at PM[18020]
-51961	CA	F9	Pagehit		value = 0 at PM[27385]
-58634	E5	A	Pagehit		value = 57 at PM[55050]
-57990	E2	86	Pagehit		value = 56 at PM[3206]
-28848	70	B0	Pagehit		value = 0 at PM[1456]
-49920	C3	0	TLBhit	value = 0 at PM[59136]
-18351	47	AF	Pagehit		value = -21 at PM[2479]
-53669	D1	A5	Pagehit		value = 0 at PM[933]
-33996	84	CC	Pagehit		value = 0 at PM[42188]
-6741	1A	55	Pagehit		value = 0 at PM[6741]
-64098	FA	62	Pagehit		value = 62 at PM[4450]
-606	2	5E	Pagehit		value = 0 at PM[17246]
-27383	6A	F7	Pagehit		value = -67 at PM[28919]
-63140	F6	A4	Pagehit		value = 0 at PM[22180]
-32228	7D	E4	Pagehit		value = 0 at PM[49892]
-63437	F7	CD	Pagehit		value = 0 at PM[17101]
-29085	71	9D	Pagehit		value = 0 at PM[16541]
-65080	FE	38	Pagehit		value = 0 at PM[48440]
-38753	97	61	Pagehit		value = 0 at PM[46945]
-16041	3E	A9	Pagehit		value = 0 at PM[21161]
-9041	23	51	Pagehit		value = 0 at PM[48209]
-42090	A4	6A	Pagehit		value = 41 at PM[46186]
-46388	B5	34	Pagehit		value = 0 at PM[50228]
-63650	F8	A2	Pagehit		value = 62 at PM[28322]
-36636	8F	1C	Pagehit		value = 0 at PM[35612]
-21947	55	BB	Pagehit		value = 110 at PM[24251]
-19833	4D	79	Pagehit		value = 0 at PM[36473]
-36464	8E	70	Pagehit		value = 0 at PM[14448]
-8541	21	5D	Pagehit		value = 0 at PM[20061]
-12712	31	A8	Pagehit		value = 0 at PM[31144]
-48955	BF	3B	Pagehit		value = -50 at PM[50491]
-39206	99	26	Pagehit		value = 38 at PM[55590]
-15578	3C	DA	Pagehit		value = 15 at PM[31962]
-49205	C0	35	Pagehit		value = 0 at PM[8501]
-7731	1E	33	Pagehit		value = -116 at PM[57907]
-43046	A8	26	Pagehit		value = 42 at PM[17446]
-60498	EC	52	Pagehit		value = 59 at PM[7250]
-9237	24	15	Pagehit		value = 0 at PM[22805]
-47706	BA	5A	Pagehit		value = 46 at PM[56410]
-43973	AB	C5	Pagehit		value = 0 at PM[57541]
-42008	A4	18	Pagehit		value = 0 at PM[46104]
-27460	6B	44	Pagehit		value = 0 at PM[15684]
-24999	61	A7	Pagehit		value = 105 at PM[52647]
-51933	CA	DD	Pagehit		value = 0 at PM[27357]
-34070	85	16	TLBhit	value = 33 at PM[60950]
-65155	FE	83	Pagehit		value = -96 at PM[48515]
-59955	EA	33	Pagehit		value = -116 at PM[10547]
-9277	24	3D	Pagehit		value = 0 at PM[22845]
-20420	4F	C4	Pagehit		value = 0 at PM[16836]
-44860	AF	3C	Pagehit		value = 0 at PM[13116]
-50992	C7	30	Pagehit		value = 0 at PM[42800]
-10583	29	57	Pagehit		value = 85 at PM[27479]
-57751	E1	97	TLBhit	value = 101 at PM[61335]
-23195	5A	9B	Pagehit		value = -90 at PM[35995]
-27227	6A	5B	Pagehit		value = -106 at PM[28763]
-42816	A7	40	Pagehit		value = 0 at PM[19520]
-58219	E3	6B	Pagehit		value = -38 at PM[34155]
-37606	92	E6	Pagehit		value = 36 at PM[21478]
-18426	47	FA	Pagehit		value = 17 at PM[2554]
-21238	52	F6	Pagehit		value = 20 at PM[37878]
-11983	2E	CF	TLBhit	value = -77 at PM[59855]
-48394	BD	A	Pagehit		value = 47 at PM[1802]
-11036	2B	1C	Pagehit		value = 0 at PM[39964]
-30557	77	5D	Pagehit		value = 0 at PM[16221]
-23453	5B	9D	Pagehit		value = 0 at PM[20637]
-49847	C2	B7	Pagehit		value = -83 at PM[31671]
-30032	75	50	Pagehit		value = 0 at PM[592]
-48065	BB	C1	Pagehit		value = 0 at PM[25793]
-6957	1B	2D	Pagehit		value = 0 at PM[26413]
-2301	8	FD	Pagehit		value = 0 at PM[35325]
-7736	1E	38	Pagehit		value = 0 at PM[57912]
-31260	7A	1C	Pagehit		value = 0 at PM[23324]
-17071	42	AF	Pagehit		value = -85 at PM[175]
-8940	22	EC	Pagehit		value = 0 at PM[46572]
-9929	26	C9	Pagehit		value = 0 at PM[44745]
-45563	B1	FB	Pagehit		value = 126 at PM[46075]
-12107	2F	4B	Pagehit		value = -46 at PM[2635]
+Virtual adress: 16916	Physical address: 20	 Value: 0
+Virtual adress: 62493	Physical address: 285	 Value: 0
+Virtual adress: 30198	Physical address: 758	 Value: 29
+Virtual adress: 53683	Physical address: 947	 Value: 108
+Virtual adress: 40185	Physical address: 1273	 Value: 0
+Virtual adress: 28781	Physical address: 1389	 Value: 0
+Virtual adress: 24462	Physical address: 1678	 Value: 23
+Virtual adress: 48399	Physical address: 1807	 Value: 67
+Virtual adress: 64815	Physical address: 2095	 Value: 75
+Virtual adress: 18295	Physical address: 2423	 Value: -35
+Virtual adress: 12218	Physical address: 2746	 Value: 11
+Virtual adress: 22760	Physical address: 3048	 Value: 0
+Virtual adress: 57982	Physical address: 3198	 Value: 56
+Virtual adress: 27966	Physical address: 3390	 Value: 27
+Virtual adress: 54894	Physical address: 3694	 Value: 53
+Virtual adress: 38929	Physical address: 3857	 Value: 0
+Virtual adress: 32865	Physical address: 4193	 Value: 0
+Virtual adress: 64243	Physical address: 4595	 Value: -68
+Virtual adress: 2315	Physical address: 4619	 Value: 66
+Virtual adress: 64454	Physical address: 5062	 Value: 62
+Virtual adress: 55041	Physical address: 5121	 Value: 0
+Virtual adress: 18633	Physical address: 5577	 Value: 0
+Virtual adress: 14557	Physical address: 5853	 Value: 0
+Virtual adress: 61006	Physical address: 5966	 Value: 59
+Virtual adress: 62615	Physical address: 407	 Value: 37
+Virtual adress: 7591	Physical address: 6311	 Value: 105
+Virtual adress: 64747	Physical address: 6635	 Value: 58
+Virtual adress: 6727	Physical address: 6727	 Value: -111
+Virtual adress: 32315	Physical address: 6971	 Value: -114
+Virtual adress: 60645	Physical address: 7397	 Value: 0
+Virtual adress: 6308	Physical address: 7588	 Value: 0
+Virtual adress: 45688	Physical address: 7800	 Value: 0
+Virtual adress: 969	Physical address: 8137	 Value: 0
+Virtual adress: 40891	Physical address: 8379	 Value: -18
+Virtual adress: 49294	Physical address: 8590	 Value: 48
+Virtual adress: 41118	Physical address: 8862	 Value: 40
+Virtual adress: 21395	Physical address: 9107	 Value: -28
+Virtual adress: 6091	Physical address: 9419	 Value: -14
+Virtual adress: 32541	Physical address: 9501	 Value: 0
+Virtual adress: 17665	Physical address: 9729	 Value: 0
+Virtual adress: 3784	Physical address: 10184	 Value: 0
+Virtual adress: 28718	Physical address: 1326	 Value: 28
+Virtual adress: 59240	Physical address: 10344	 Value: 0
+Virtual adress: 40178	Physical address: 1266	 Value: 39
+Virtual adress: 60086	Physical address: 10678	 Value: 58
+Virtual adress: 42252	Physical address: 10764	 Value: 0
+Virtual adress: 44770	Physical address: 11234	 Value: 43
+Virtual adress: 22514	Physical address: 11506	 Value: 21
+Virtual adress: 3067	Physical address: 11771	 Value: -2
+Virtual adress: 15757	Physical address: 11917	 Value: 0
+Virtual adress: 31649	Physical address: 12193	 Value: 0
+Virtual adress: 10842	Physical address: 12378	 Value: 10
+Virtual adress: 43765	Physical address: 12789	 Value: 0
+Virtual adress: 33405	Physical address: 12925	 Value: 0
+Virtual adress: 44954	Physical address: 13210	 Value: 43
+Virtual adress: 56657	Physical address: 13393	 Value: 0
+Virtual adress: 5003	Physical address: 13707	 Value: -30
+Virtual adress: 50227	Physical address: 13875	 Value: 12
+Virtual adress: 19358	Physical address: 14238	 Value: 18
+Virtual adress: 36529	Physical address: 14513	 Value: 0
+Virtual adress: 10392	Physical address: 14744	 Value: 0
+Virtual adress: 58882	Physical address: 14850	 Value: 57
+Virtual adress: 5129	Physical address: 15113	 Value: 0
+Virtual adress: 58554	Physical address: 15546	 Value: 57
+Virtual adress: 58584	Physical address: 15576	 Value: 0
+Virtual adress: 27444	Physical address: 15668	 Value: 0
+Virtual adress: 58982	Physical address: 14950	 Value: 57
+Virtual adress: 51476	Physical address: 15892	 Value: 0
+Virtual adress: 6796	Physical address: 6796	 Value: 0
+Virtual adress: 21311	Physical address: 9023	 Value: -49
+Virtual adress: 30705	Physical address: 16369	 Value: 0
+Virtual adress: 28964	Physical address: 16420	 Value: 0
+Virtual adress: 41003	Physical address: 8747	 Value: 10
+Virtual adress: 20259	Physical address: 16675	 Value: -56
+Virtual adress: 57857	Physical address: 3073	 Value: 0
+Virtual adress: 63258	Physical address: 16922	 Value: 61
+Virtual adress: 36374	Physical address: 14358	 Value: 35
+Virtual adress: 692	Physical address: 17332	 Value: 0
+Virtual adress: 43121	Physical address: 17521	 Value: 0
+Virtual adress: 48128	Physical address: 17664	 Value: 0
+Virtual adress: 34561	Physical address: 17921	 Value: 0
+Virtual adress: 49213	Physical address: 8509	 Value: 0
+Virtual adress: 36922	Physical address: 18234	 Value: 36
+Virtual adress: 59162	Physical address: 10266	 Value: 57
+Virtual adress: 50552	Physical address: 18552	 Value: 0
+Virtual adress: 17866	Physical address: 9930	 Value: 17
+Virtual adress: 18145	Physical address: 18913	 Value: 0
+Virtual adress: 3884	Physical address: 18988	 Value: 0
+Virtual adress: 54388	Physical address: 19316	 Value: 0
+Virtual adress: 42932	Physical address: 19636	 Value: 0
+Virtual adress: 46919	Physical address: 19783	 Value: -47
+Virtual adress: 58892	Physical address: 14860	 Value: 0
+Virtual adress: 8620	Physical address: 20140	 Value: 0
+Virtual adress: 38336	Physical address: 20416	 Value: 0
+Virtual adress: 64357	Physical address: 4965	 Value: 0
+Virtual adress: 23387	Physical address: 20571	 Value: -42
+Virtual adress: 42632	Physical address: 20872	 Value: 0
+Virtual adress: 15913	Physical address: 21033	 Value: 0
+Virtual adress: 15679	Physical address: 11839	 Value: 79
+Virtual adress: 22501	Physical address: 11493	 Value: 0
+Virtual adress: 37540	Physical address: 21412	 Value: 0
+Virtual adress: 5527	Physical address: 21655	 Value: 101
+Virtual adress: 63921	Physical address: 21937	 Value: 0
+Virtual adress: 62716	Physical address: 508	 Value: 0
+Virtual adress: 32874	Physical address: 4202	 Value: 32
+Virtual adress: 64390	Physical address: 4998	 Value: 62
+Virtual adress: 63101	Physical address: 22141	 Value: 0
+Virtual adress: 61802	Physical address: 22378	 Value: 60
+Virtual adress: 19648	Physical address: 22720	 Value: 0
+Virtual adress: 29031	Physical address: 16487	 Value: 89
+Virtual adress: 44981	Physical address: 13237	 Value: 0
+Virtual adress: 28092	Physical address: 3516	 Value: 0
+Virtual adress: 9448	Physical address: 23016	 Value: 0
+Virtual adress: 44744	Physical address: 11208	 Value: 0
+Virtual adress: 61496	Physical address: 23096	 Value: 0
+Virtual adress: 31453	Physical address: 23517	 Value: 0
+Virtual adress: 60746	Physical address: 23626	 Value: 59
+Virtual adress: 12199	Physical address: 2727	 Value: -23
+Virtual adress: 62255	Physical address: 23855	 Value: -53
+Virtual adress: 21793	Physical address: 24097	 Value: 0
+Virtual adress: 26544	Physical address: 24496	 Value: 0
+Virtual adress: 14964	Physical address: 24692	 Value: 0
+Virtual adress: 41462	Physical address: 25078	 Value: 40
+Virtual adress: 56089	Physical address: 25113	 Value: 0
+Virtual adress: 52038	Physical address: 25414	 Value: 50
+Virtual adress: 47982	Physical address: 25710	 Value: 46
+Virtual adress: 59484	Physical address: 25948	 Value: 0
+Virtual adress: 50924	Physical address: 26348	 Value: 0
+Virtual adress: 6942	Physical address: 26398	 Value: 6
+Virtual adress: 34998	Physical address: 26806	 Value: 34
+Virtual adress: 27069	Physical address: 27069	 Value: 0
+Virtual adress: 51926	Physical address: 27350	 Value: 50
+Virtual adress: 60645	Physical address: 7397	 Value: 0
+Virtual adress: 43181	Physical address: 17581	 Value: 0
+Virtual adress: 10559	Physical address: 27455	 Value: 79
+Virtual adress: 4664	Physical address: 27704	 Value: 0
+Virtual adress: 28578	Physical address: 28066	 Value: 27
+Virtual adress: 59516	Physical address: 25980	 Value: 0
+Virtual adress: 38912	Physical address: 3840	 Value: 0
+Virtual adress: 63562	Physical address: 28234	 Value: 62
+Virtual adress: 64846	Physical address: 2126	 Value: 63
+Virtual adress: 62938	Physical address: 28634	 Value: 61
+Virtual adress: 27194	Physical address: 28730	 Value: 26
+Virtual adress: 28804	Physical address: 1412	 Value: 0
+Virtual adress: 61703	Physical address: 22279	 Value: 65
+Virtual adress: 10998	Physical address: 12534	 Value: 10
+Virtual adress: 6596	Physical address: 29124	 Value: 0
+Virtual adress: 37721	Physical address: 29273	 Value: 0
+Virtual adress: 43430	Physical address: 29606	 Value: 42
+Virtual adress: 22692	Physical address: 2980	 Value: 0
+Virtual adress: 62971	Physical address: 28667	 Value: 126
+Virtual adress: 47125	Physical address: 29717	 Value: 0
+Virtual adress: 52521	Physical address: 29993	 Value: 0
+Virtual adress: 34646	Physical address: 18006	 Value: 33
+Virtual adress: 32889	Physical address: 4217	 Value: 0
+Virtual adress: 13055	Physical address: 30463	 Value: -65
+Virtual adress: 65416	Physical address: 30600	 Value: 0
+Virtual adress: 62869	Physical address: 28565	 Value: 0
+Virtual adress: 57314	Physical address: 30946	 Value: 55
+Virtual adress: 12659	Physical address: 31091	 Value: 92
+Virtual adress: 14052	Physical address: 31460	 Value: 0
+Virtual adress: 32956	Physical address: 4284	 Value: 0
+Virtual adress: 49273	Physical address: 8569	 Value: 0
+Virtual adress: 50352	Physical address: 14000	 Value: 0
+Virtual adress: 49737	Physical address: 31561	 Value: 0
+Virtual adress: 15555	Physical address: 31939	 Value: 48
+Virtual adress: 47475	Physical address: 32115	 Value: 92
+Virtual adress: 15328	Physical address: 32480	 Value: 0
+Virtual adress: 34621	Physical address: 17981	 Value: 0
+Virtual adress: 51365	Physical address: 32677	 Value: 0
+Virtual adress: 32820	Physical address: 4148	 Value: 0
+Virtual adress: 48855	Physical address: 32983	 Value: -75
+Virtual adress: 12224	Physical address: 2752	 Value: 0
+Virtual adress: 2035	Physical address: 33267	 Value: -4
+Virtual adress: 60539	Physical address: 7291	 Value: 30
+Virtual adress: 14595	Physical address: 33283	 Value: 64
+Virtual adress: 13853	Physical address: 31261	 Value: 0
+Virtual adress: 24143	Physical address: 33615	 Value: -109
+Virtual adress: 15216	Physical address: 32368	 Value: 0
+Virtual adress: 8113	Physical address: 33969	 Value: 0
+Virtual adress: 22640	Physical address: 2928	 Value: 0
+Virtual adress: 32978	Physical address: 4306	 Value: 32
+Virtual adress: 39151	Physical address: 4079	 Value: 59
+Virtual adress: 19520	Physical address: 22592	 Value: 0
+Virtual adress: 58141	Physical address: 34077	 Value: 0
+Virtual adress: 63959	Physical address: 21975	 Value: 117
+Virtual adress: 53040	Physical address: 34352	 Value: 0
+Virtual adress: 55842	Physical address: 34594	 Value: 54
+Virtual adress: 585	Physical address: 17225	 Value: 0
+Virtual adress: 51229	Physical address: 32541	 Value: 0
+Virtual adress: 64181	Physical address: 4533	 Value: 0
+Virtual adress: 54879	Physical address: 3679	 Value: -105
+Virtual adress: 28210	Physical address: 34866	 Value: 27
+Virtual adress: 10268	Physical address: 14620	 Value: 0
+Virtual adress: 15395	Physical address: 31779	 Value: 8
+Virtual adress: 12884	Physical address: 30292	 Value: 0
+Virtual adress: 2149	Physical address: 35173	 Value: 0
+Virtual adress: 53483	Physical address: 35563	 Value: 58
+Virtual adress: 59606	Physical address: 26070	 Value: 58
+Virtual adress: 14981	Physical address: 24709	 Value: 0
+Virtual adress: 36672	Physical address: 35648	 Value: 0
+Virtual adress: 23197	Physical address: 35997	 Value: 0
+Virtual adress: 36518	Physical address: 14502	 Value: 35
+Virtual adress: 13361	Physical address: 36145	 Value: 0
+Virtual adress: 19810	Physical address: 36450	 Value: 19
+Virtual adress: 25955	Physical address: 36707	 Value: 88
+Virtual adress: 62678	Physical address: 470	 Value: 61
+Virtual adress: 26021	Physical address: 36773	 Value: 0
+Virtual adress: 29409	Physical address: 37089	 Value: 0
+Virtual adress: 38111	Physical address: 37343	 Value: 55
+Virtual adress: 58573	Physical address: 15565	 Value: 0
+Virtual adress: 56840	Physical address: 37384	 Value: 0
+Virtual adress: 41306	Physical address: 24922	 Value: 40
+Virtual adress: 54426	Physical address: 19354	 Value: 53
+Virtual adress: 3617	Physical address: 10017	 Value: 0
+Virtual adress: 50652	Physical address: 18652	 Value: 0
+Virtual adress: 41452	Physical address: 25068	 Value: 0
+Virtual adress: 20241	Physical address: 16657	 Value: 0
+Virtual adress: 31723	Physical address: 12267	 Value: -6
+Virtual adress: 53747	Physical address: 1011	 Value: 124
+Virtual adress: 28550	Physical address: 28038	 Value: 27
+Virtual adress: 23402	Physical address: 20586	 Value: 22
+Virtual adress: 21205	Physical address: 37845	 Value: 0
+Virtual adress: 56181	Physical address: 25205	 Value: 0
+Virtual adress: 57470	Physical address: 38014	 Value: 56
+Virtual adress: 39933	Physical address: 38397	 Value: 0
+Virtual adress: 34964	Physical address: 26772	 Value: 0
+Virtual adress: 24781	Physical address: 38605	 Value: 0
+Virtual adress: 41747	Physical address: 38675	 Value: -60
+Virtual adress: 62564	Physical address: 356	 Value: 0
+Virtual adress: 58461	Physical address: 15453	 Value: 0
+Virtual adress: 20858	Physical address: 39034	 Value: 20
+Virtual adress: 49301	Physical address: 8597	 Value: 0
+Virtual adress: 40572	Physical address: 39292	 Value: 0
+Virtual adress: 23840	Physical address: 39456	 Value: 0
+Virtual adress: 35278	Physical address: 39886	 Value: 34
+Virtual adress: 62905	Physical address: 28601	 Value: 0
+Virtual adress: 56650	Physical address: 13386	 Value: 55
+Virtual adress: 11149	Physical address: 40077	 Value: 0
+Virtual adress: 38920	Physical address: 3848	 Value: 0
+Virtual adress: 23430	Physical address: 20614	 Value: 22
+Virtual adress: 57592	Physical address: 38136	 Value: 0
+Virtual adress: 3080	Physical address: 40200	 Value: 0
+Virtual adress: 6677	Physical address: 6677	 Value: 0
+Virtual adress: 50704	Physical address: 26128	 Value: 0
+Virtual adress: 51883	Physical address: 27307	 Value: -86
+Virtual adress: 62799	Physical address: 28495	 Value: 83
+Virtual adress: 20188	Physical address: 40668	 Value: 0
+Virtual adress: 1245	Physical address: 40925	 Value: 0
+Virtual adress: 12220	Physical address: 2748	 Value: 0
+Virtual adress: 17602	Physical address: 41154	 Value: 17
+Virtual adress: 28609	Physical address: 28097	 Value: 0
+Virtual adress: 42694	Physical address: 20934	 Value: 41
+Virtual adress: 29826	Physical address: 41346	 Value: 29
+Virtual adress: 13827	Physical address: 31235	 Value: -128
+Virtual adress: 27336	Physical address: 28872	 Value: 0
+Virtual adress: 53343	Physical address: 35423	 Value: 23
+Virtual adress: 11533	Physical address: 41485	 Value: 0
+Virtual adress: 41713	Physical address: 41969	 Value: 0
+Virtual adress: 33890	Physical address: 42082	 Value: 33
+Virtual adress: 4894	Physical address: 13598	 Value: 4
+Virtual adress: 57599	Physical address: 38143	 Value: 63
+Virtual adress: 3870	Physical address: 18974	 Value: 3
+Virtual adress: 58622	Physical address: 15614	 Value: 57
+Virtual adress: 29780	Physical address: 41300	 Value: 0
+Virtual adress: 62553	Physical address: 345	 Value: 0
+Virtual adress: 2303	Physical address: 35327	 Value: 63
+Virtual adress: 51915	Physical address: 27339	 Value: -78
+Virtual adress: 6251	Physical address: 7531	 Value: 26
+Virtual adress: 38107	Physical address: 37339	 Value: 54
+Virtual adress: 59325	Physical address: 10429	 Value: 0
+Virtual adress: 61295	Physical address: 42351	 Value: -37
+Virtual adress: 26699	Physical address: 42571	 Value: 18
+Virtual adress: 51188	Physical address: 42996	 Value: 0
+Virtual adress: 59519	Physical address: 25983	 Value: 31
+Virtual adress: 7345	Physical address: 43185	 Value: 0
+Virtual adress: 20325	Physical address: 16741	 Value: 0
+Virtual adress: 39633	Physical address: 43473	 Value: 0
+Virtual adress: 1562	Physical address: 43546	 Value: 1
+Virtual adress: 7580	Physical address: 6300	 Value: 0
+Virtual adress: 8170	Physical address: 34026	 Value: 7
+Virtual adress: 62256	Physical address: 23856	 Value: 0
+Virtual adress: 35823	Physical address: 44015	 Value: -5
+Virtual adress: 27790	Physical address: 44174	 Value: 27
+Virtual adress: 13191	Physical address: 44423	 Value: -31
+Virtual adress: 9772	Physical address: 44588	 Value: 0
+Virtual adress: 7477	Physical address: 6197	 Value: 0
+Virtual adress: 44455	Physical address: 44967	 Value: 105
+Virtual adress: 59546	Physical address: 26010	 Value: 58
+Virtual adress: 49347	Physical address: 8643	 Value: 48
+Virtual adress: 36539	Physical address: 14523	 Value: -82
+Virtual adress: 12453	Physical address: 45221	 Value: 0
+Virtual adress: 49640	Physical address: 45544	 Value: 0
+Virtual adress: 28290	Physical address: 34946	 Value: 27
+Virtual adress: 44817	Physical address: 13073	 Value: 0
+Virtual adress: 8565	Physical address: 20085	 Value: 0
+Virtual adress: 16399	Physical address: 45583	 Value: 3
+Virtual adress: 41934	Physical address: 38862	 Value: 40
+Virtual adress: 45457	Physical address: 45969	 Value: 0
+Virtual adress: 33856	Physical address: 42048	 Value: 0
+Virtual adress: 19498	Physical address: 22570	 Value: 19
+Virtual adress: 17661	Physical address: 41213	 Value: 0
+Virtual adress: 63829	Physical address: 21845	 Value: 0
+Virtual adress: 42034	Physical address: 46130	 Value: 41
+Virtual adress: 28928	Physical address: 16384	 Value: 0
+Virtual adress: 30711	Physical address: 16375	 Value: -3
+Virtual adress: 8800	Physical address: 46432	 Value: 0
+Virtual adress: 52335	Physical address: 46703	 Value: 27
+Virtual adress: 38775	Physical address: 46967	 Value: -35
+Virtual adress: 52704	Physical address: 30176	 Value: 0
+Virtual adress: 24380	Physical address: 1596	 Value: 0
+Virtual adress: 19602	Physical address: 22674	 Value: 19
+Virtual adress: 57998	Physical address: 3214	 Value: 56
+Virtual adress: 2919	Physical address: 11623	 Value: -39
+Virtual adress: 8362	Physical address: 47274	 Value: 8
+Virtual adress: 17884	Physical address: 9948	 Value: 0
+Virtual adress: 45737	Physical address: 7849	 Value: 0
+Virtual adress: 47894	Physical address: 25622	 Value: 46
+Virtual adress: 59667	Physical address: 47379	 Value: 68
+Virtual adress: 10385	Physical address: 14737	 Value: 0
+Virtual adress: 52782	Physical address: 47662	 Value: 51
+Virtual adress: 64416	Physical address: 5024	 Value: 0
+Virtual adress: 40946	Physical address: 8434	 Value: 39
+Virtual adress: 16778	Physical address: 48010	 Value: 16
+Virtual adress: 27159	Physical address: 28695	 Value: -123
+Virtual adress: 24324	Physical address: 1540	 Value: 0
+Virtual adress: 32450	Physical address: 7106	 Value: 31
+Virtual adress: 9108	Physical address: 48276	 Value: 0
+Virtual adress: 65305	Physical address: 30489	 Value: 0
+Virtual adress: 19575	Physical address: 22647	 Value: 29
+Virtual adress: 11117	Physical address: 40045	 Value: 0
+Virtual adress: 65170	Physical address: 48530	 Value: 63
+Virtual adress: 58013	Physical address: 3229	 Value: 0
+Virtual adress: 61676	Physical address: 23276	 Value: 0
+Virtual adress: 63510	Physical address: 28182	 Value: 62
+Virtual adress: 17458	Physical address: 41010	 Value: 17
+Virtual adress: 54675	Physical address: 48787	 Value: 100
+Virtual adress: 1713	Physical address: 43697	 Value: 0
+Virtual adress: 55105	Physical address: 5185	 Value: 0
+Virtual adress: 65321	Physical address: 30505	 Value: 0
+Virtual adress: 45278	Physical address: 49118	 Value: 44
+Virtual adress: 26256	Physical address: 49296	 Value: 0
+Virtual adress: 64198	Physical address: 4550	 Value: 62
+Virtual adress: 29441	Physical address: 49409	 Value: 0
+Virtual adress: 1928	Physical address: 33160	 Value: 0
+Virtual adress: 39425	Physical address: 43265	 Value: 0
+Virtual adress: 32000	Physical address: 49664	 Value: 0
+Virtual adress: 28549	Physical address: 28037	 Value: 0
+Virtual adress: 46295	Physical address: 50135	 Value: 53
+Virtual adress: 22772	Physical address: 3060	 Value: 0
+Virtual adress: 58228	Physical address: 34164	 Value: 0
+Virtual adress: 63525	Physical address: 28197	 Value: 0
+Virtual adress: 32602	Physical address: 9562	 Value: 31
+Virtual adress: 46195	Physical address: 50035	 Value: 28
+Virtual adress: 55849	Physical address: 34601	 Value: 0
+Virtual adress: 46454	Physical address: 50294	 Value: 45
+Virtual adress: 7487	Physical address: 6207	 Value: 79
+Virtual adress: 33879	Physical address: 42071	 Value: 21
+Virtual adress: 42004	Physical address: 46100	 Value: 0
+Virtual adress: 8599	Physical address: 20119	 Value: 101
+Virtual adress: 18641	Physical address: 5585	 Value: 0
+Virtual adress: 49015	Physical address: 50551	 Value: -35
+Virtual adress: 26830	Physical address: 42702	 Value: 26
+Virtual adress: 34754	Physical address: 18114	 Value: 33
+Virtual adress: 14668	Physical address: 33356	 Value: 0
+Virtual adress: 38362	Physical address: 20442	 Value: 37
+Virtual adress: 38791	Physical address: 46983	 Value: -31
+Virtual adress: 4171	Physical address: 50763	 Value: 18
+Virtual adress: 45975	Physical address: 51095	 Value: -27
+Virtual adress: 14623	Physical address: 33311	 Value: 71
+Virtual adress: 62393	Physical address: 23993	 Value: 0
+Virtual adress: 64658	Physical address: 6546	 Value: 63
+Virtual adress: 10963	Physical address: 12499	 Value: -76
+Virtual adress: 9058	Physical address: 48226	 Value: 8
+Virtual adress: 51031	Physical address: 42839	 Value: -43
+Virtual adress: 32425	Physical address: 7081	 Value: 0
+Virtual adress: 45483	Physical address: 45995	 Value: 106
+Virtual adress: 44611	Physical address: 11075	 Value: -112
+Virtual adress: 63664	Physical address: 28336	 Value: 0
+Virtual adress: 54920	Physical address: 3720	 Value: 0
+Virtual adress: 7663	Physical address: 6383	 Value: 123
+Virtual adress: 56480	Physical address: 51360	 Value: 0
+Virtual adress: 1489	Physical address: 51665	 Value: 0
+Virtual adress: 28438	Physical address: 27926	 Value: 27
+Virtual adress: 65449	Physical address: 30633	 Value: 0
+Virtual adress: 12441	Physical address: 45209	 Value: 0
+Virtual adress: 58530	Physical address: 15522	 Value: 57
+Virtual adress: 63570	Physical address: 28242	 Value: 62
+Virtual adress: 26251	Physical address: 49291	 Value: -94
+Virtual adress: 15972	Physical address: 21092	 Value: 0
+Virtual adress: 35826	Physical address: 44018	 Value: 34
+Virtual adress: 5491	Physical address: 21619	 Value: 92
+Virtual adress: 54253	Physical address: 51949	 Value: 0
+Virtual adress: 49655	Physical address: 45559	 Value: 125
+Virtual adress: 5868	Physical address: 52204	 Value: 0
+Virtual adress: 20163	Physical address: 40643	 Value: -80
+Virtual adress: 51079	Physical address: 42887	 Value: -31
+Virtual adress: 21398	Physical address: 9110	 Value: 20
+Virtual adress: 32756	Physical address: 9716	 Value: 0
+Virtual adress: 64196	Physical address: 4548	 Value: 0
+Virtual adress: 43218	Physical address: 17618	 Value: 42
+Virtual adress: 21583	Physical address: 52303	 Value: 19
+Virtual adress: 25086	Physical address: 52734	 Value: 24
+Virtual adress: 45515	Physical address: 46027	 Value: 114
+Virtual adress: 12893	Physical address: 30301	 Value: 0
+Virtual adress: 22914	Physical address: 52866	 Value: 22
+Virtual adress: 58969	Physical address: 14937	 Value: 0
+Virtual adress: 20094	Physical address: 40574	 Value: 19
+Virtual adress: 13730	Physical address: 53154	 Value: 13
+Virtual adress: 44059	Physical address: 53275	 Value: 6
+Virtual adress: 28931	Physical address: 16387	 Value: 64
+Virtual adress: 13533	Physical address: 36317	 Value: 0
+Virtual adress: 33134	Physical address: 53614	 Value: 32
+Virtual adress: 28483	Physical address: 27971	 Value: -48
+Virtual adress: 1220	Physical address: 40900	 Value: 0
+Virtual adress: 38174	Physical address: 20254	 Value: 37
+Virtual adress: 53502	Physical address: 35582	 Value: 52
+Virtual adress: 43328	Physical address: 29504	 Value: 0
+Virtual adress: 4970	Physical address: 13674	 Value: 4
+Virtual adress: 8090	Physical address: 33946	 Value: 7
+Virtual adress: 2661	Physical address: 53861	 Value: 0
+Virtual adress: 53903	Physical address: 54159	 Value: -93
+Virtual adress: 11025	Physical address: 39953	 Value: 0
+Virtual adress: 26627	Physical address: 42499	 Value: 0
+Virtual adress: 18117	Physical address: 18885	 Value: 0
+Virtual adress: 14505	Physical address: 5801	 Value: 0
+Virtual adress: 61528	Physical address: 23128	 Value: 0
+Virtual adress: 20423	Physical address: 16839	 Value: -15
+Virtual adress: 26962	Physical address: 26962	 Value: 26
+Virtual adress: 36392	Physical address: 14376	 Value: 0
+Virtual adress: 11365	Physical address: 54373	 Value: 0
+Virtual adress: 50882	Physical address: 26306	 Value: 49
+Virtual adress: 41668	Physical address: 41924	 Value: 0
+Virtual adress: 30497	Physical address: 16161	 Value: 0
+Virtual adress: 36216	Physical address: 54648	 Value: 0
+Virtual adress: 5619	Physical address: 21747	 Value: 124
+Virtual adress: 36983	Physical address: 18295	 Value: 29
+Virtual adress: 59557	Physical address: 26021	 Value: 0
+Virtual adress: 36663	Physical address: 35639	 Value: -51
+Virtual adress: 36436	Physical address: 14420	 Value: 0
+Virtual adress: 37057	Physical address: 18369	 Value: 0
+Virtual adress: 23585	Physical address: 54817	 Value: 0
+Virtual adress: 58791	Physical address: 55207	 Value: 105
+Virtual adress: 46666	Physical address: 55370	 Value: 45
+Virtual adress: 64475	Physical address: 5083	 Value: -10
+Virtual adress: 21615	Physical address: 52335	 Value: 27
+Virtual adress: 41090	Physical address: 8834	 Value: 40
+Virtual adress: 1771	Physical address: 43755	 Value: -70
+Virtual adress: 47513	Physical address: 32153	 Value: 0
+Virtual adress: 39338	Physical address: 55722	 Value: 38
+Virtual adress: 1390	Physical address: 51566	 Value: 1
+Virtual adress: 38772	Physical address: 46964	 Value: 0
+Virtual adress: 58149	Physical address: 34085	 Value: 0
+Virtual adress: 7196	Physical address: 43036	 Value: 0
+Virtual adress: 9123	Physical address: 48291	 Value: -24
+Virtual adress: 7491	Physical address: 6211	 Value: 80
+Virtual adress: 62616	Physical address: 408	 Value: 0
+Virtual adress: 15436	Physical address: 31820	 Value: 0
+Virtual adress: 17491	Physical address: 41043	 Value: 20
+Virtual adress: 53656	Physical address: 920	 Value: 0
+Virtual adress: 26449	Physical address: 24401	 Value: 0
+Virtual adress: 34935	Physical address: 26743	 Value: 29
+Virtual adress: 19864	Physical address: 36504	 Value: 0
+Virtual adress: 51388	Physical address: 32700	 Value: 0
+Virtual adress: 15155	Physical address: 32307	 Value: -52
+Virtual adress: 64775	Physical address: 2055	 Value: 65
+Virtual adress: 47969	Physical address: 25697	 Value: 0
+Virtual adress: 16315	Physical address: 55995	 Value: -18
+Virtual adress: 1342	Physical address: 51518	 Value: 1
+Virtual adress: 51185	Physical address: 42993	 Value: 0
+Virtual adress: 6043	Physical address: 9371	 Value: -26
+Virtual adress: 21398	Physical address: 9110	 Value: 20
+Virtual adress: 3273	Physical address: 40393	 Value: 0
+Virtual adress: 9370	Physical address: 22938	 Value: 9
+Virtual adress: 35463	Physical address: 56199	 Value: -95
+Virtual adress: 28205	Physical address: 34861	 Value: 0
+Virtual adress: 2351	Physical address: 4655	 Value: 75
+Virtual adress: 28999	Physical address: 16455	 Value: 81
+Virtual adress: 47699	Physical address: 56403	 Value: -108
+Virtual adress: 46870	Physical address: 19734	 Value: 45
+Virtual adress: 22311	Physical address: 11303	 Value: -55
+Virtual adress: 22124	Physical address: 56684	 Value: 0
+Virtual adress: 22427	Physical address: 11419	 Value: -26
+Virtual adress: 49344	Physical address: 8640	 Value: 0
+Virtual adress: 23224	Physical address: 36024	 Value: 0
+Virtual adress: 5514	Physical address: 21642	 Value: 5
+Virtual adress: 20504	Physical address: 56856	 Value: 0
+Virtual adress: 376	Physical address: 57208	 Value: 0
+Virtual adress: 2014	Physical address: 33246	 Value: 1
+Virtual adress: 38700	Physical address: 46892	 Value: 0
+Virtual adress: 13098	Physical address: 44330	 Value: 12
+Virtual adress: 62435	Physical address: 24035	 Value: -8
+Virtual adress: 48046	Physical address: 25774	 Value: 46
+Virtual adress: 63464	Physical address: 17128	 Value: 0
+Virtual adress: 12798	Physical address: 31230	 Value: 12
+Virtual adress: 51178	Physical address: 42986	 Value: 49
+Virtual adress: 8627	Physical address: 20147	 Value: 108
+Virtual adress: 27083	Physical address: 27083	 Value: 114
+Virtual adress: 47198	Physical address: 29790	 Value: 46
+Virtual adress: 44021	Physical address: 57589	 Value: 0
+Virtual adress: 32792	Physical address: 4120	 Value: 0
+Virtual adress: 43996	Physical address: 57564	 Value: 0
+Virtual adress: 41126	Physical address: 8870	 Value: 40
+Virtual adress: 64244	Physical address: 4596	 Value: 0
+Virtual adress: 37047	Physical address: 18359	 Value: 45
+Virtual adress: 60281	Physical address: 57721	 Value: 0
+Virtual adress: 52904	Physical address: 47784	 Value: 0
+Virtual adress: 7768	Physical address: 57944	 Value: 0
+Virtual adress: 55359	Physical address: 58175	 Value: 15
+Virtual adress: 3230	Physical address: 40350	 Value: 3
+Virtual adress: 44813	Physical address: 13069	 Value: 0
+Virtual adress: 4116	Physical address: 50708	 Value: 0
+Virtual adress: 65222	Physical address: 48582	 Value: 63
+Virtual adress: 28083	Physical address: 3507	 Value: 108
+Virtual adress: 60660	Physical address: 7412	 Value: 0
+Virtual adress: 39	Physical address: 58407	 Value: 9
+Virtual adress: 328	Physical address: 57160	 Value: 0
+Virtual adress: 47868	Physical address: 56572	 Value: 0
+Virtual adress: 13009	Physical address: 30417	 Value: 0
+Virtual adress: 22378	Physical address: 11370	 Value: 21
+Virtual adress: 39304	Physical address: 55688	 Value: 0
+Virtual adress: 11171	Physical address: 40099	 Value: -24
+Virtual adress: 8079	Physical address: 33935	 Value: -29
+Virtual adress: 52879	Physical address: 47759	 Value: -93
+Virtual adress: 5123	Physical address: 15107	 Value: 0
+Virtual adress: 4356	Physical address: 58628	 Value: 0
+Virtual adress: 45745	Physical address: 7857	 Value: 0
+Virtual adress: 32952	Physical address: 4280	 Value: 0
+Virtual adress: 4657	Physical address: 27697	 Value: 0
+Virtual adress: 24142	Physical address: 33614	 Value: 23
+Virtual adress: 23319	Physical address: 20503	 Value: -59
+Virtual adress: 13607	Physical address: 53031	 Value: 73
+Virtual adress: 46304	Physical address: 50144	 Value: 0
+Virtual adress: 17677	Physical address: 9741	 Value: 0
+Virtual adress: 59691	Physical address: 47403	 Value: 74
+Virtual adress: 50967	Physical address: 42775	 Value: -59
+Virtual adress: 7817	Physical address: 57993	 Value: 0
+Virtual adress: 8545	Physical address: 20065	 Value: 0
+Virtual adress: 55297	Physical address: 58113	 Value: 0
+Virtual adress: 52954	Physical address: 47834	 Value: 51
+Virtual adress: 39720	Physical address: 38184	 Value: 0
+Virtual adress: 18455	Physical address: 5399	 Value: 5
+Virtual adress: 30349	Physical address: 59021	 Value: 0
+Virtual adress: 63270	Physical address: 16934	 Value: 61
+Virtual adress: 27156	Physical address: 28692	 Value: 0
+Virtual adress: 20614	Physical address: 56966	 Value: 20
+Virtual adress: 19372	Physical address: 14252	 Value: 0
+Virtual adress: 48689	Physical address: 32817	 Value: 0
+Virtual adress: 49386	Physical address: 8682	 Value: 48
+Virtual adress: 50584	Physical address: 18584	 Value: 0
+Virtual adress: 51936	Physical address: 27360	 Value: 0
+Virtual adress: 34705	Physical address: 18065	 Value: 0
+Virtual adress: 13653	Physical address: 53077	 Value: 0
+Virtual adress: 50077	Physical address: 59293	 Value: 0
+Virtual adress: 54518	Physical address: 19446	 Value: 53
+Virtual adress: 41482	Physical address: 41738	 Value: 40
+Virtual adress: 4169	Physical address: 50761	 Value: 0
+Virtual adress: 36118	Physical address: 54550	 Value: 35
+Virtual adress: 9584	Physical address: 59504	 Value: 0
+Virtual adress: 18490	Physical address: 5434	 Value: 18
+Virtual adress: 55420	Physical address: 58236	 Value: 0
+Virtual adress: 5708	Physical address: 52044	 Value: 0
+Virtual adress: 23506	Physical address: 20690	 Value: 22
+Virtual adress: 15391	Physical address: 31775	 Value: 7
+Virtual adress: 36368	Physical address: 14352	 Value: 0
+Virtual adress: 38976	Physical address: 3904	 Value: 0
+Virtual adress: 50406	Physical address: 14054	 Value: 49
+Virtual adress: 49236	Physical address: 8532	 Value: 0
+Virtual adress: 65035	Physical address: 48395	 Value: -126
+Virtual adress: 30120	Physical address: 680	 Value: 0
+Virtual adress: 62551	Physical address: 343	 Value: 21
+Virtual adress: 46809	Physical address: 55513	 Value: 0
+Virtual adress: 21687	Physical address: 52407	 Value: 45
+Virtual adress: 53839	Physical address: 54095	 Value: -109
+Virtual adress: 2098	Physical address: 35122	 Value: 2
+Virtual adress: 12364	Physical address: 45132	 Value: 0
+Virtual adress: 45366	Physical address: 45878	 Value: 44
+Virtual adress: 50437	Physical address: 18437	 Value: 0
+Virtual adress: 36675	Physical address: 35651	 Value: -48
+Virtual adress: 55382	Physical address: 58198	 Value: 54
+Virtual adress: 11846	Physical address: 59718	 Value: 11
+Virtual adress: 49127	Physical address: 50663	 Value: -7
+Virtual adress: 19900	Physical address: 36540	 Value: 0
+Virtual adress: 20554	Physical address: 56906	 Value: 20
+Virtual adress: 19219	Physical address: 14099	 Value: -60
+Virtual adress: 51483	Physical address: 15899	 Value: 70
+Virtual adress: 58090	Physical address: 3306	 Value: 56
+Virtual adress: 39074	Physical address: 4002	 Value: 38
+Virtual adress: 16060	Physical address: 21180	 Value: 0
+Virtual adress: 10447	Physical address: 14799	 Value: 51
+Virtual adress: 54169	Physical address: 51865	 Value: 0
+Virtual adress: 20634	Physical address: 56986	 Value: 20
+Virtual adress: 57555	Physical address: 38099	 Value: 52
+Virtual adress: 61210	Physical address: 42266	 Value: 59
+Virtual adress: 269	Physical address: 57101	 Value: 0
+Virtual adress: 33154	Physical address: 53634	 Value: 32
+Virtual adress: 64487	Physical address: 5095	 Value: -7
+Virtual adress: 61223	Physical address: 42279	 Value: -55
+Virtual adress: 47292	Physical address: 29884	 Value: 0
+Virtual adress: 21852	Physical address: 24156	 Value: 0
+Virtual adress: 5281	Physical address: 15265	 Value: 0
+Virtual adress: 45912	Physical address: 51032	 Value: 0
+Virtual adress: 32532	Physical address: 9492	 Value: 0
+Virtual adress: 63067	Physical address: 22107	 Value: -106
+Virtual adress: 41683	Physical address: 41939	 Value: -76
+Virtual adress: 20981	Physical address: 39157	 Value: 0
+Virtual adress: 33881	Physical address: 42073	 Value: 0
+Virtual adress: 41785	Physical address: 38713	 Value: 0
+Virtual adress: 4580	Physical address: 58852	 Value: 0
+Virtual adress: 41389	Physical address: 25005	 Value: 0
+Virtual adress: 28572	Physical address: 28060	 Value: 0
+Virtual adress: 782	Physical address: 7950	 Value: 0
+Virtual adress: 30273	Physical address: 58945	 Value: 0
+Virtual adress: 62267	Physical address: 23867	 Value: -50
+Virtual adress: 17922	Physical address: 18690	 Value: 17
+Virtual adress: 63238	Physical address: 16902	 Value: 61
+Virtual adress: 3308	Physical address: 40428	 Value: 0
+Virtual adress: 26545	Physical address: 24497	 Value: 0
+Virtual adress: 44395	Physical address: 44907	 Value: 90
+Virtual adress: 39120	Physical address: 4048	 Value: 0
+Virtual adress: 21706	Physical address: 52426	 Value: 21
+Virtual adress: 7144	Physical address: 26600	 Value: 0
+Virtual adress: 30244	Physical address: 58916	 Value: 0
+Virtual adress: 3725	Physical address: 10125	 Value: 0
+Virtual adress: 54632	Physical address: 48744	 Value: 0
+Virtual adress: 30574	Physical address: 16238	 Value: 29
+Virtual adress: 8473	Physical address: 19993	 Value: 0
+Virtual adress: 12386	Physical address: 45154	 Value: 12
+Virtual adress: 41114	Physical address: 8858	 Value: 40
+Virtual adress: 57930	Physical address: 3146	 Value: 56
+Virtual adress: 15341	Physical address: 32493	 Value: 0
+Virtual adress: 15598	Physical address: 31982	 Value: 15
+Virtual adress: 59922	Physical address: 10514	 Value: 58
+Virtual adress: 18226	Physical address: 2354	 Value: 17
+Virtual adress: 48162	Physical address: 17698	 Value: 47
+Virtual adress: 41250	Physical address: 24866	 Value: 40
+Virtual adress: 1512	Physical address: 51688	 Value: 0
+Virtual adress: 2546	Physical address: 4850	 Value: 2
+Virtual adress: 41682	Physical address: 41938	 Value: 40
+Virtual adress: 322	Physical address: 57154	 Value: 0
+Virtual adress: 880	Physical address: 8048	 Value: 0
+Virtual adress: 20891	Physical address: 39067	 Value: 102
+Virtual adress: 56604	Physical address: 13340	 Value: 0
+Virtual adress: 40166	Physical address: 1254	 Value: 39
+Virtual adress: 26791	Physical address: 42663	 Value: 41
+Virtual adress: 44560	Physical address: 11024	 Value: 0
+Virtual adress: 38698	Physical address: 46890	 Value: 37
+Virtual adress: 64127	Physical address: 4479	 Value: -97
+Virtual adress: 15028	Physical address: 24756	 Value: 0
+Virtual adress: 38669	Physical address: 46861	 Value: 0
+Virtual adress: 45637	Physical address: 7749	 Value: 0
+Virtual adress: 43151	Physical address: 17551	 Value: 35
+Virtual adress: 9465	Physical address: 23033	 Value: 0
+Virtual adress: 2498	Physical address: 4802	 Value: 2
+Virtual adress: 13978	Physical address: 31386	 Value: 13
+Virtual adress: 16326	Physical address: 56006	 Value: 15
+Virtual adress: 51442	Physical address: 32754	 Value: 50
+Virtual adress: 34845	Physical address: 26653	 Value: 0
+Virtual adress: 63667	Physical address: 28339	 Value: 44
+Virtual adress: 39370	Physical address: 55754	 Value: 38
+Virtual adress: 55671	Physical address: 60023	 Value: 93
+Virtual adress: 64496	Physical address: 5104	 Value: 0
+Virtual adress: 7767	Physical address: 57943	 Value: -107
+Virtual adress: 6283	Physical address: 7563	 Value: 34
+Virtual adress: 55884	Physical address: 34636	 Value: 0
+Virtual adress: 61103	Physical address: 6063	 Value: -85
+Virtual adress: 10184	Physical address: 60360	 Value: 0
+Virtual adress: 39543	Physical address: 43383	 Value: -99
+Virtual adress: 9555	Physical address: 59475	 Value: 84
+Virtual adress: 13963	Physical address: 31371	 Value: -94
+Virtual adress: 58975	Physical address: 14943	 Value: -105
+Virtual adress: 19537	Physical address: 22609	 Value: 0
+Virtual adress: 6101	Physical address: 9429	 Value: 0
+Virtual adress: 41421	Physical address: 25037	 Value: 0
+Virtual adress: 45502	Physical address: 46014	 Value: 44
+Virtual adress: 29328	Physical address: 37008	 Value: 0
+Virtual adress: 8149	Physical address: 34005	 Value: 0
+Virtual adress: 25450	Physical address: 60522	 Value: 24
+Virtual adress: 58944	Physical address: 14912	 Value: 0
+Virtual adress: 50666	Physical address: 18666	 Value: 49
+Virtual adress: 23084	Physical address: 35884	 Value: 0
+Virtual adress: 36468	Physical address: 14452	 Value: 0
+Virtual adress: 33645	Physical address: 60781	 Value: 0
+Virtual adress: 25002	Physical address: 52650	 Value: 24
+Virtual adress: 53715	Physical address: 979	 Value: 116
+Virtual adress: 60173	Physical address: 57613	 Value: 0
+Virtual adress: 46354	Physical address: 50194	 Value: 45
+Virtual adress: 4708	Physical address: 27748	 Value: 0
+Virtual adress: 28208	Physical address: 34864	 Value: 0
+Virtual adress: 58844	Physical address: 55260	 Value: 0
+Virtual adress: 22173	Physical address: 56733	 Value: 0
+Virtual adress: 8535	Physical address: 20055	 Value: 85
+Virtual adress: 42261	Physical address: 10773	 Value: 0
+Virtual adress: 29687	Physical address: 49655	 Value: -3
+Virtual adress: 37799	Physical address: 29351	 Value: -23
+Virtual adress: 22566	Physical address: 2854	 Value: 22
+Virtual adress: 62520	Physical address: 312	 Value: 0
+Virtual adress: 4098	Physical address: 50690	 Value: 4
+Virtual adress: 47999	Physical address: 25727	 Value: -33
+Virtual adress: 49660	Physical address: 45564	 Value: 0
+Virtual adress: 37063	Physical address: 18375	 Value: 49
+Virtual adress: 41856	Physical address: 38784	 Value: 0
+Virtual adress: 5417	Physical address: 21545	 Value: 0
+Virtual adress: 48856	Physical address: 32984	 Value: 0
+Virtual adress: 10682	Physical address: 27578	 Value: 10
+Virtual adress: 22370	Physical address: 11362	 Value: 21
+Virtual adress: 63281	Physical address: 16945	 Value: 0
+Virtual adress: 62452	Physical address: 24052	 Value: 0
+Virtual adress: 50532	Physical address: 18532	 Value: 0
+Virtual adress: 9022	Physical address: 48190	 Value: 8
+Virtual adress: 59300	Physical address: 10404	 Value: 0
+Virtual adress: 58660	Physical address: 55076	 Value: 0
+Virtual adress: 56401	Physical address: 51281	 Value: 0
+Virtual adress: 8518	Physical address: 20038	 Value: 8
+Virtual adress: 63066	Physical address: 22106	 Value: 61
+Virtual adress: 63250	Physical address: 16914	 Value: 61
+Virtual adress: 48592	Physical address: 2000	 Value: 0
+Virtual adress: 28771	Physical address: 1379	 Value: 24
+Virtual adress: 37673	Physical address: 29225	 Value: 0
+Virtual adress: 60776	Physical address: 23656	 Value: 0
+Virtual adress: 56438	Physical address: 51318	 Value: 55
+Virtual adress: 60424	Physical address: 7176	 Value: 0
+Virtual adress: 39993	Physical address: 1081	 Value: 0
+Virtual adress: 56004	Physical address: 34756	 Value: 0
+Virtual adress: 59002	Physical address: 14970	 Value: 57
+Virtual adress: 33982	Physical address: 42174	 Value: 33
+Virtual adress: 25498	Physical address: 60570	 Value: 24
+Virtual adress: 57047	Physical address: 37591	 Value: -75
+Virtual adress: 1401	Physical address: 51577	 Value: 0
+Virtual adress: 15130	Physical address: 32282	 Value: 14
+Virtual adress: 42960	Physical address: 19664	 Value: 0
+Virtual adress: 61827	Physical address: 22403	 Value: 96
+Virtual adress: 32442	Physical address: 7098	 Value: 31
+Virtual adress: 64304	Physical address: 4912	 Value: 0
+Virtual adress: 30273	Physical address: 58945	 Value: 0
+Virtual adress: 38082	Physical address: 37314	 Value: 37
+Virtual adress: 22404	Physical address: 11396	 Value: 0
+Virtual adress: 3808	Physical address: 10208	 Value: 0
+Virtual adress: 16883	Physical address: 48115	 Value: 124
+Virtual adress: 23111	Physical address: 35911	 Value: -111
+Virtual adress: 62417	Physical address: 24017	 Value: 0
+Virtual adress: 60364	Physical address: 57804	 Value: 0
+Virtual adress: 4542	Physical address: 58814	 Value: 4
+Virtual adress: 14829	Physical address: 33517	 Value: 0
+Virtual adress: 44964	Physical address: 13220	 Value: 0
+Virtual adress: 33924	Physical address: 42116	 Value: 0
+Virtual adress: 2141	Physical address: 35165	 Value: 0
+Virtual adress: 19245	Physical address: 14125	 Value: 0
+Virtual adress: 47168	Physical address: 29760	 Value: 0
+Virtual adress: 24048	Physical address: 39664	 Value: 0
+Virtual adress: 1022	Physical address: 8190	 Value: 0
+Virtual adress: 23075	Physical address: 35875	 Value: -120
+Virtual adress: 24888	Physical address: 52536	 Value: 0
+Virtual adress: 49247	Physical address: 8543	 Value: 23
+Virtual adress: 4900	Physical address: 13604	 Value: 0
+Virtual adress: 22656	Physical address: 2944	 Value: 0
+Virtual adress: 34117	Physical address: 60997	 Value: 0
+Virtual adress: 55555	Physical address: 59907	 Value: 64
+Virtual adress: 48947	Physical address: 50483	 Value: -52
+Virtual adress: 59533	Physical address: 25997	 Value: 0
+Virtual adress: 21312	Physical address: 9024	 Value: 0
+Virtual adress: 21415	Physical address: 9127	 Value: -23
+Virtual adress: 813	Physical address: 7981	 Value: 0
+Virtual adress: 19419	Physical address: 14299	 Value: -10
+Virtual adress: 1999	Physical address: 33231	 Value: -13
+Virtual adress: 20155	Physical address: 40635	 Value: -82
+Virtual adress: 21521	Physical address: 52241	 Value: 0
+Virtual adress: 13670	Physical address: 53094	 Value: 13
+Virtual adress: 19289	Physical address: 14169	 Value: 0
+Virtual adress: 58483	Physical address: 15475	 Value: 28
+Virtual adress: 41318	Physical address: 24934	 Value: 40
+Virtual adress: 16151	Physical address: 55831	 Value: -59
+Virtual adress: 13611	Physical address: 53035	 Value: 74
+Virtual adress: 21514	Physical address: 52234	 Value: 21
+Virtual adress: 13499	Physical address: 36283	 Value: 46
+Virtual adress: 45583	Physical address: 7695	 Value: -125
+Virtual adress: 49013	Physical address: 50549	 Value: 0
+Virtual adress: 64843	Physical address: 2123	 Value: 82
+Virtual adress: 63485	Physical address: 17149	 Value: 0
+Virtual adress: 38697	Physical address: 46889	 Value: 0
+Virtual adress: 59188	Physical address: 10292	 Value: 0
+Virtual adress: 24593	Physical address: 38417	 Value: 0
+Virtual adress: 57641	Physical address: 61225	 Value: 0
+Virtual adress: 36524	Physical address: 14508	 Value: 0
+Virtual adress: 56980	Physical address: 37524	 Value: 0
+Virtual adress: 36810	Physical address: 35786	 Value: 35
+Virtual adress: 6096	Physical address: 9424	 Value: 0
+Virtual adress: 11070	Physical address: 39998	 Value: 10
+Virtual adress: 60124	Physical address: 10716	 Value: 0
+Virtual adress: 37576	Physical address: 21448	 Value: 0
+Virtual adress: 15096	Physical address: 24824	 Value: 0
+Virtual adress: 45247	Physical address: 49087	 Value: 47
+Virtual adress: 32783	Physical address: 4111	 Value: 3
+Virtual adress: 58390	Physical address: 15382	 Value: 57
+Virtual adress: 60873	Physical address: 23753	 Value: 0
+Virtual adress: 23719	Physical address: 54951	 Value: 41
+Virtual adress: 24385	Physical address: 1601	 Value: 0
+Virtual adress: 22307	Physical address: 11299	 Value: -56
+Virtual adress: 17375	Physical address: 61663	 Value: -9
+Virtual adress: 15990	Physical address: 21110	 Value: 15
+Virtual adress: 20526	Physical address: 56878	 Value: 20
+Virtual adress: 25904	Physical address: 36656	 Value: 0
+Virtual adress: 42224	Physical address: 46320	 Value: 0
+Virtual adress: 9311	Physical address: 22879	 Value: 23
+Virtual adress: 7862	Physical address: 58038	 Value: 7
+Virtual adress: 3835	Physical address: 10235	 Value: -66
+Virtual adress: 30535	Physical address: 16199	 Value: -47
+Virtual adress: 65179	Physical address: 48539	 Value: -90
+Virtual adress: 57387	Physical address: 37931	 Value: 10
+Virtual adress: 63579	Physical address: 28251	 Value: 22
+Virtual adress: 4946	Physical address: 13650	 Value: 4
+Virtual adress: 9037	Physical address: 48205	 Value: 0
+Virtual adress: 61033	Physical address: 5993	 Value: 0
+Virtual adress: 55543	Physical address: 58359	 Value: 61
+Virtual adress: 50361	Physical address: 14009	 Value: 0
+Virtual adress: 6480	Physical address: 29008	 Value: 0
+Virtual adress: 14042	Physical address: 31450	 Value: 13
+Virtual adress: 21531	Physical address: 52251	 Value: 6
+Virtual adress: 39195	Physical address: 55579	 Value: 70
+Virtual adress: 37511	Physical address: 21383	 Value: -95
+Virtual adress: 23696	Physical address: 54928	 Value: 0
+Virtual adress: 27440	Physical address: 15664	 Value: 0
+Virtual adress: 28201	Physical address: 34857	 Value: 0
+Virtual adress: 23072	Physical address: 35872	 Value: 0
+Virtual adress: 7814	Physical address: 57990	 Value: 7
+Virtual adress: 6552	Physical address: 29080	 Value: 0
+Virtual adress: 43637	Physical address: 12661	 Value: 0
+Virtual adress: 35113	Physical address: 39721	 Value: 0
+Virtual adress: 34890	Physical address: 26698	 Value: 34
+Virtual adress: 61297	Physical address: 42353	 Value: 0
+Virtual adress: 45633	Physical address: 7745	 Value: 0
+Virtual adress: 61431	Physical address: 42487	 Value: -3
+Virtual adress: 46032	Physical address: 51152	 Value: 0
+Virtual adress: 18774	Physical address: 61782	 Value: 18
+Virtual adress: 62991	Physical address: 22031	 Value: -125
+Virtual adress: 28059	Physical address: 3483	 Value: 102
+Virtual adress: 35229	Physical address: 39837	 Value: 0
+Virtual adress: 51230	Physical address: 32542	 Value: 50
+Virtual adress: 14405	Physical address: 5701	 Value: 0
+Virtual adress: 52242	Physical address: 46610	 Value: 51
+Virtual adress: 43153	Physical address: 17553	 Value: 0
+Virtual adress: 2709	Physical address: 53909	 Value: 0
+Virtual adress: 47963	Physical address: 25691	 Value: -42
+Virtual adress: 36943	Physical address: 18255	 Value: 19
+Virtual adress: 54066	Physical address: 51762	 Value: 52
+Virtual adress: 10054	Physical address: 60230	 Value: 9
+Virtual adress: 43051	Physical address: 17451	 Value: 10
+Virtual adress: 11525	Physical address: 41477	 Value: 0
+Virtual adress: 17684	Physical address: 9748	 Value: 0
+Virtual adress: 41681	Physical address: 41937	 Value: 0
+Virtual adress: 27883	Physical address: 44267	 Value: 58
+Virtual adress: 56909	Physical address: 37453	 Value: 0
+Virtual adress: 45772	Physical address: 7884	 Value: 0
+Virtual adress: 27496	Physical address: 15720	 Value: 0
+Virtual adress: 46842	Physical address: 55546	 Value: 45
+Virtual adress: 38734	Physical address: 46926	 Value: 37
+Virtual adress: 28972	Physical address: 16428	 Value: 0
+Virtual adress: 59684	Physical address: 47396	 Value: 0
+Virtual adress: 11384	Physical address: 54392	 Value: 0
+Virtual adress: 21018	Physical address: 37658	 Value: 20
+Virtual adress: 2192	Physical address: 35216	 Value: 0
+Virtual adress: 18384	Physical address: 2512	 Value: 0
+Virtual adress: 13464	Physical address: 36248	 Value: 0
+Virtual adress: 31018	Physical address: 61994	 Value: 30
+Virtual adress: 62958	Physical address: 28654	 Value: 61
+Virtual adress: 30611	Physical address: 16275	 Value: -28
+Virtual adress: 1913	Physical address: 33145	 Value: 0
+Virtual adress: 18904	Physical address: 61912	 Value: 0
+Virtual adress: 26773	Physical address: 42645	 Value: 0
+Virtual adress: 55491	Physical address: 58307	 Value: 48
+Virtual adress: 21899	Physical address: 24203	 Value: 98
+Virtual adress: 64413	Physical address: 5021	 Value: 0
+Virtual adress: 47134	Physical address: 29726	 Value: 46
+Virtual adress: 23172	Physical address: 35972	 Value: 0
+Virtual adress: 7262	Physical address: 43102	 Value: 7
+Virtual adress: 12705	Physical address: 31137	 Value: 0
+Virtual adress: 7522	Physical address: 6242	 Value: 7
+Virtual adress: 58815	Physical address: 55231	 Value: 111
+Virtual adress: 34916	Physical address: 26724	 Value: 0
+Virtual adress: 3802	Physical address: 10202	 Value: 3
+Virtual adress: 58008	Physical address: 3224	 Value: 0
+Virtual adress: 1239	Physical address: 40919	 Value: 53
+Virtual adress: 63947	Physical address: 21963	 Value: 114
+Virtual adress: 381	Physical address: 57213	 Value: 0
+Virtual adress: 60734	Physical address: 23614	 Value: 59
+Virtual adress: 48769	Physical address: 32897	 Value: 0
+Virtual adress: 41938	Physical address: 38866	 Value: 40
+Virtual adress: 38025	Physical address: 37257	 Value: 0
+Virtual adress: 55099	Physical address: 5179	 Value: -50
+Virtual adress: 56691	Physical address: 13427	 Value: 92
+Virtual adress: 39530	Physical address: 43370	 Value: 38
+Virtual adress: 59003	Physical address: 14971	 Value: -98
+Virtual adress: 6029	Physical address: 9357	 Value: 0
+Virtual adress: 20920	Physical address: 39096	 Value: 0
+Virtual adress: 8077	Physical address: 33933	 Value: 0
+Virtual adress: 42633	Physical address: 20873	 Value: 0
+Virtual adress: 17443	Physical address: 40995	 Value: 8
+Virtual adress: 53570	Physical address: 834	 Value: 52
+Virtual adress: 22833	Physical address: 52785	 Value: 0
+Virtual adress: 3782	Physical address: 10182	 Value: 3
+Virtual adress: 47758	Physical address: 56462	 Value: 46
+Virtual adress: 22136	Physical address: 56696	 Value: 0
+Virtual adress: 22427	Physical address: 11419	 Value: -26
+Virtual adress: 23867	Physical address: 39483	 Value: 78
+Virtual adress: 59968	Physical address: 10560	 Value: 0
+Virtual adress: 62166	Physical address: 62422	 Value: 60
+Virtual adress: 6972	Physical address: 26428	 Value: 0
+Virtual adress: 63684	Physical address: 28356	 Value: 0
+Virtual adress: 46388	Physical address: 50228	 Value: 0
+Virtual adress: 41942	Physical address: 38870	 Value: 40
+Virtual adress: 36524	Physical address: 14508	 Value: 0
+Virtual adress: 9323	Physical address: 22891	 Value: 26
+Virtual adress: 31114	Physical address: 62090	 Value: 30
+Virtual adress: 22345	Physical address: 11337	 Value: 0
+Virtual adress: 46463	Physical address: 50303	 Value: 95
+Virtual adress: 54671	Physical address: 48783	 Value: 99
+Virtual adress: 9214	Physical address: 48382	 Value: 8
+Virtual adress: 7257	Physical address: 43097	 Value: 0
+Virtual adress: 33150	Physical address: 53630	 Value: 32
+Virtual adress: 41565	Physical address: 41821	 Value: 0
+Virtual adress: 26214	Physical address: 49254	 Value: 25
+Virtual adress: 3595	Physical address: 9995	 Value: -126
+Virtual adress: 17932	Physical address: 18700	 Value: 0
+Virtual adress: 34660	Physical address: 18020	 Value: 0
+Virtual adress: 51961	Physical address: 27385	 Value: 0
+Virtual adress: 58634	Physical address: 55050	 Value: 57
+Virtual adress: 57990	Physical address: 3206	 Value: 56
+Virtual adress: 28848	Physical address: 1456	 Value: 0
+Virtual adress: 49920	Physical address: 59136	 Value: 0
+Virtual adress: 18351	Physical address: 2479	 Value: -21
+Virtual adress: 53669	Physical address: 933	 Value: 0
+Virtual adress: 33996	Physical address: 42188	 Value: 0
+Virtual adress: 6741	Physical address: 6741	 Value: 0
+Virtual adress: 64098	Physical address: 4450	 Value: 62
+Virtual adress: 606	Physical address: 17246	 Value: 0
+Virtual adress: 27383	Physical address: 28919	 Value: -67
+Virtual adress: 63140	Physical address: 22180	 Value: 0
+Virtual adress: 32228	Physical address: 49892	 Value: 0
+Virtual adress: 63437	Physical address: 17101	 Value: 0
+Virtual adress: 29085	Physical address: 16541	 Value: 0
+Virtual adress: 65080	Physical address: 48440	 Value: 0
+Virtual adress: 38753	Physical address: 46945	 Value: 0
+Virtual adress: 16041	Physical address: 21161	 Value: 0
+Virtual adress: 9041	Physical address: 48209	 Value: 0
+Virtual adress: 42090	Physical address: 46186	 Value: 41
+Virtual adress: 46388	Physical address: 50228	 Value: 0
+Virtual adress: 63650	Physical address: 28322	 Value: 62
+Virtual adress: 36636	Physical address: 35612	 Value: 0
+Virtual adress: 21947	Physical address: 24251	 Value: 110
+Virtual adress: 19833	Physical address: 36473	 Value: 0
+Virtual adress: 36464	Physical address: 14448	 Value: 0
+Virtual adress: 8541	Physical address: 20061	 Value: 0
+Virtual adress: 12712	Physical address: 31144	 Value: 0
+Virtual adress: 48955	Physical address: 50491	 Value: -50
+Virtual adress: 39206	Physical address: 55590	 Value: 38
+Virtual adress: 15578	Physical address: 31962	 Value: 15
+Virtual adress: 49205	Physical address: 8501	 Value: 0
+Virtual adress: 7731	Physical address: 57907	 Value: -116
+Virtual adress: 43046	Physical address: 17446	 Value: 42
+Virtual adress: 60498	Physical address: 7250	 Value: 59
+Virtual adress: 9237	Physical address: 22805	 Value: 0
+Virtual adress: 47706	Physical address: 56410	 Value: 46
+Virtual adress: 43973	Physical address: 57541	 Value: 0
+Virtual adress: 42008	Physical address: 46104	 Value: 0
+Virtual adress: 27460	Physical address: 15684	 Value: 0
+Virtual adress: 24999	Physical address: 52647	 Value: 105
+Virtual adress: 51933	Physical address: 27357	 Value: 0
+Virtual adress: 34070	Physical address: 60950	 Value: 33
+Virtual adress: 65155	Physical address: 48515	 Value: -96
+Virtual adress: 59955	Physical address: 10547	 Value: -116
+Virtual adress: 9277	Physical address: 22845	 Value: 0
+Virtual adress: 20420	Physical address: 16836	 Value: 0
+Virtual adress: 44860	Physical address: 13116	 Value: 0
+Virtual adress: 50992	Physical address: 42800	 Value: 0
+Virtual adress: 10583	Physical address: 27479	 Value: 85
+Virtual adress: 57751	Physical address: 61335	 Value: 101
+Virtual adress: 23195	Physical address: 35995	 Value: -90
+Virtual adress: 27227	Physical address: 28763	 Value: -106
+Virtual adress: 42816	Physical address: 19520	 Value: 0
+Virtual adress: 58219	Physical address: 34155	 Value: -38
+Virtual adress: 37606	Physical address: 21478	 Value: 36
+Virtual adress: 18426	Physical address: 2554	 Value: 17
+Virtual adress: 21238	Physical address: 37878	 Value: 20
+Virtual adress: 11983	Physical address: 59855	 Value: -77
+Virtual adress: 48394	Physical address: 1802	 Value: 47
+Virtual adress: 11036	Physical address: 39964	 Value: 0
+Virtual adress: 30557	Physical address: 16221	 Value: 0
+Virtual adress: 23453	Physical address: 20637	 Value: 0
+Virtual adress: 49847	Physical address: 31671	 Value: -83
+Virtual adress: 30032	Physical address: 592	 Value: 0
+Virtual adress: 48065	Physical address: 25793	 Value: 0
+Virtual adress: 6957	Physical address: 26413	 Value: 0
+Virtual adress: 2301	Physical address: 35325	 Value: 0
+Virtual adress: 7736	Physical address: 57912	 Value: 0
+Virtual adress: 31260	Physical address: 23324	 Value: 0
+Virtual adress: 17071	Physical address: 175	 Value: -85
+Virtual adress: 8940	Physical address: 46572	 Value: 0
+Virtual adress: 9929	Physical address: 44745	 Value: 0
+Virtual adress: 45563	Physical address: 46075	 Value: 126
+Virtual adress: 12107	Physical address: 2635	 Value: -46
 openFrame = 244
